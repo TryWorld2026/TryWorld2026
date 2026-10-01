@@ -9,35 +9,7 @@
 
 我把想法做成能用的工具：AI 工作流、桌面应用，以及解决日常问题的 Web 产品。维护自己的项目，也为开源项目贡献修复、测试和客户端集成。
 
-[代表作品](#代表作品) · [开源贡献](#开源贡献) · [技术方向](#技术方向) · [English](https://github.com/TryWorld2026/TryWorld2026/blob/main/README.en.md)
-
-## 代表作品
-
-### `01` [纸上算法 · Paper Algorithm](https://github.com/TryWorld2026/paper-algorithm)
-
-把 AI 选题、脚本与口播视频制作，封装成可以复用的 Agent Skills。从一句话开始，串起内容生产流程。
-
-`Python` `Agent Skills` · [使用说明](https://github.com/TryWorld2026/paper-algorithm/blob/main/README.zh-CN.md) · [作品示例](https://github.com/TryWorld2026/paper-algorithm/tree/main/examples)
-
-### `02` [灵屿 · Lingyu](https://github.com/TryWorld2026/Lingyu)
-
-免费开源的 Windows 桌面灵动岛。基于 [eIsland](https://github.com/JNTMTMTM/eIsland) 二次开发，集成桌面工具、本地模型及自带 Key 的 AI 对话。
-
-`Electron` `React` `TypeScript` · [功能与预览](https://github.com/TryWorld2026/Lingyu#-功能) · [安装说明](https://github.com/TryWorld2026/Lingyu#-安装)
-
-### `03` [篮球计分板](https://github.com/TryWorld2026/basketball-scoreboard)
-
-手机当遥控器，大屏当记分牌。支持双端同步、比分操作记录，以及赛后分享的数据卡。
-
-`JavaScript` `Workers` `D1` · [项目与使用说明](https://github.com/TryWorld2026/basketball-scoreboard)
-
-### `04` [羽毛球快速计分板](https://github.com/TryWorld2026/badmintonrapidscoreboard)
-
-在浏览器里完成记分、分组、费用分摊和比赛统计。数据保存在本地，打开即可使用。
-
-`JavaScript` `LocalStorage` · [在线使用](https://tryworld2026.github.io/badmintonrapidscoreboard/) · [源代码](https://github.com/TryWorld2026/badmintonrapidscoreboard)
-
-更多尝试：[三连鉴定委员会](https://github.com/TryWorld2026/sanlian-judge) · [国产 AI 入门教程](https://github.com/TryWorld2026/guochan-ai-tutorial)
+[开源贡献](#开源贡献) · [技术方向](#技术方向) · [全部仓库](https://github.com/TryWorld2026?tab=repositories) · [English](https://github.com/TryWorld2026/TryWorld2026/blob/main/README.en.md)
 
 ## 开源贡献
 

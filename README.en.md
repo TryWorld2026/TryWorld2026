@@ -9,35 +9,7 @@
 
 I turn ideas into useful tools: AI workflows, desktop utilities, and web products for everyday problems. I maintain my own projects and contribute fixes, tests, and client integrations to open source.
 
-[Projects](#projects) · [Open source](#open-source) · [What I work with](#what-i-work-with) · [简体中文](https://github.com/TryWorld2026/TryWorld2026/blob/main/README.md)
-
-## Projects
-
-### `01` [Paper Algorithm · 纸上算法](https://github.com/TryWorld2026/paper-algorithm)
-
-Reusable Agent Skills for AI topic selection, scripts, and narrated videos. Start with a sentence and connect the content-production workflow.
-
-`Python` `Agent Skills` · [Getting started](https://github.com/TryWorld2026/paper-algorithm) · [Examples](https://github.com/TryWorld2026/paper-algorithm/tree/main/examples)
-
-### `02` [Lingyu · 灵屿](https://github.com/TryWorld2026/Lingyu)
-
-A free, open-source Windows desktop island, derived from [eIsland](https://github.com/JNTMTMTM/eIsland). Desktop utilities with local-model and bring-your-own-key AI chat.
-
-`Electron` `React` `TypeScript` · [Features and setup](https://github.com/TryWorld2026/Lingyu)
-
-### `03` [Basketball Scoreboard](https://github.com/TryWorld2026/basketball-scoreboard)
-
-Use a phone as the controller and a larger screen as the scoreboard. Synchronized scoring, an operation history, and shareable post-game cards.
-
-`JavaScript` `Workers` `D1` · [Project and setup](https://github.com/TryWorld2026/basketball-scoreboard)
-
-### `04` [Badminton Rapid Scoreboard](https://github.com/TryWorld2026/badmintonrapidscoreboard)
-
-Browser-based scoring, grouping, cost splitting, and match statistics. Data stays in local browser storage.
-
-`JavaScript` `LocalStorage` · [Try it](https://tryworld2026.github.io/badmintonrapidscoreboard/) · [Source](https://github.com/TryWorld2026/badmintonrapidscoreboard)
-
-More experiments: [Sanlian Judge](https://github.com/TryWorld2026/sanlian-judge) · [Chinese AI getting-started guide](https://github.com/TryWorld2026/guochan-ai-tutorial)
+[Open source](#open-source) · [What I work with](#what-i-work-with) · [Repositories](https://github.com/TryWorld2026?tab=repositories) · [简体中文](https://github.com/TryWorld2026/TryWorld2026/blob/main/README.md)
 
 ## Open source
 
