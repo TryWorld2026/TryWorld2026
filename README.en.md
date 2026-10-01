@@ -13,22 +13,35 @@ I turn ideas into useful tools: AI workflows, desktop utilities, and web product
 
 ## Open source
 
-I contribute agent integrations, gateway reliability fixes, and configuration protection to [Magpie](https://github.com/yetone/magpie). These contributions have been merged upstream; the original PRs contain the changes, tests, and discussions.
+<!-- CONTRIBUTIONS:START -->
+**22 public PRs · 15 merged · 6 external projects**
 
-| Merged contribution | PR |
+3 open (including drafts), 4 closed without merging. Public PRs submitted to external open-source projects.
+
+| Project | Merged / Submitted |
 | --- | --- |
-| Correct retry behavior for rejected `off` reasoning efforts | [#401](https://github.com/yetone/magpie/pull/401) |
-| Preserve unreadable provider configuration rather than overwriting it during edits | [#415](https://github.com/yetone/magpie/pull/415) |
-| Exclude balance-query tokens from exports without credentials | [#418](https://github.com/yetone/magpie/pull/418) |
-| Preserve default field values in configuration snapshots | [#421](https://github.com/yetone/magpie/pull/421) |
-| Cover intermediate session-route polling updates in regression tests | [#424](https://github.com/yetone/magpie/pull/424) |
+| [yetone/magpie](https://github.com/yetone/magpie) | 5 / 8 |
+| [ShDH-CMYK/heikesong-zuopin](https://github.com/ShDH-CMYK/heikesong-zuopin) | 1 / 1 |
+| [open-city-ai/haidian](https://github.com/open-city-ai/haidian) | 9 / 10 |
+| [ringhyacinth/Star-Office-UI](https://github.com/ringhyacinth/Star-Office-UI) | 0 / 1 |
+| [kubevela/kubevela](https://github.com/kubevela/kubevela) | 0 / 1 |
+| [srizzon/git-city](https://github.com/srizzon/git-city) | 0 / 1 |
 
-**Recent submissions**
+**Recent updates**
 
-- [Native Reasonix Studio 2.x integration · #427](https://github.com/yetone/magpie/pull/427): client detection, model and routing-group selection, configuration restoration, and native CLI support.
-- [Header scaling fix · #428](https://github.com/yetone/magpie/pull/428): handle fractional Windows coordinates so widened windows recover their intended layout.
+- **Merged** · [yetone/magpie #424](https://github.com/yetone/magpie/pull/424) — test\(gateway\): handle intermediate session route poll updates
+- **Draft** · [yetone/magpie #427](https://github.com/yetone/magpie/pull/427) — agent: add Reasonix Studio 2.x integration
+- **Draft** · [yetone/magpie #428](https://github.com/yetone/magpie/pull/428) — gui: tolerate rounded header bounds when fitting navigation
+- **Merged** · [yetone/magpie #415](https://github.com/yetone/magpie/pull/415) — fix\(provider\): preserve unreadable configuration on edits
+- **Merged** · [yetone/magpie #421](https://github.com/yetone/magpie/pull/421) — fix\(profile\): preserve default values in snapshots
+- **Merged** · [yetone/magpie #418](https://github.com/yetone/magpie/pull/418) — fix\(backup\): exclude balance tokens from keyless exports
+- **Open** · [yetone/magpie #403](https://github.com/yetone/magpie/pull/403) — fix\(gateway\): preserve optional-field validation errors
+- **Merged** · [yetone/magpie #401](https://github.com/yetone/magpie/pull/401) — fix\(gateway\): avoid retrying refused off efforts
 
-See each PR for its current merge status.
+[Complete public PR archive](https://github.com/TryWorld2026/TryWorld2026/blob/main/CONTRIBUTIONS.md) · [All public PRs](https://github.com/search?q=author%3ATryWorld2026+is%3Apr+is%3Apublic&type=pullrequests) · [Issues](https://github.com/search?q=author%3ATryWorld2026+is%3Aissue+is%3Apublic&type=issues) · [Reviews](https://github.com/search?q=reviewed-by%3ATryWorld2026+is%3Apr+is%3Apublic&type=pullrequests) · [Commits](https://github.com/search?q=author%3ATryWorld2026&type=commits)
+
+<sub>Synced daily. The links above also cover issues, reviews, and direct commits.</sub>
+<!-- CONTRIBUTIONS:END -->
 
 ## What I work with
 

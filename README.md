@@ -13,22 +13,35 @@
 
 ## 开源贡献
 
-为 [Magpie](https://github.com/yetone/magpie) 贡献 Agent 集成、网关可靠性和配置数据保护。下面的贡献已被上游合并，讨论、测试和具体改动都可以在原 PR 中查看。
+<!-- CONTRIBUTIONS:START -->
+**22 个公开 PR · 15 个已合并 · 6 个外部项目**
 
-| 已合并贡献 | PR |
+3 个进行中（含草稿），4 个已关闭。统计我向外部开源项目提交的公开 PR。
+
+| 项目 | 已合并 / 提交 |
 | --- | --- |
-| 修正推理强度 `off` 被拒绝时的重试行为 | [#401](https://github.com/yetone/magpie/pull/401) |
-| 遇到不可读的供应商配置时保留原文件，避免编辑覆盖 | [#415](https://github.com/yetone/magpie/pull/415) |
-| 无密钥导出时排除余额查询令牌 | [#418](https://github.com/yetone/magpie/pull/418) |
-| 保留配置快照中的默认字段值 | [#421](https://github.com/yetone/magpie/pull/421) |
-| 覆盖会话路由轮询中间更新的回归测试 | [#424](https://github.com/yetone/magpie/pull/424) |
+| [yetone/magpie](https://github.com/yetone/magpie) | 5 / 8 |
+| [ShDH-CMYK/heikesong-zuopin](https://github.com/ShDH-CMYK/heikesong-zuopin) | 1 / 1 |
+| [open-city-ai/haidian](https://github.com/open-city-ai/haidian) | 9 / 10 |
+| [ringhyacinth/Star-Office-UI](https://github.com/ringhyacinth/Star-Office-UI) | 0 / 1 |
+| [kubevela/kubevela](https://github.com/kubevela/kubevela) | 0 / 1 |
+| [srizzon/git-city](https://github.com/srizzon/git-city) | 0 / 1 |
 
-**近期提交**
+**最近更新**
 
-- [Reasonix Studio 2.x 原生适配 · #427](https://github.com/yetone/magpie/pull/427)：客户端检测、模型与模型组选择、配置恢复、原生 CLI 接入。
-- [顶部导航缩放修复 · #428](https://github.com/yetone/magpie/pull/428)：处理 Windows 小数坐标误差，让放大后的窗口恢复正确布局。
+- **已合并** · [yetone/magpie #424](https://github.com/yetone/magpie/pull/424) — test\(gateway\): handle intermediate session route poll updates
+- **草稿** · [yetone/magpie #427](https://github.com/yetone/magpie/pull/427) — agent: add Reasonix Studio 2.x integration
+- **草稿** · [yetone/magpie #428](https://github.com/yetone/magpie/pull/428) — gui: tolerate rounded header bounds when fitting navigation
+- **已合并** · [yetone/magpie #415](https://github.com/yetone/magpie/pull/415) — fix\(provider\): preserve unreadable configuration on edits
+- **已合并** · [yetone/magpie #421](https://github.com/yetone/magpie/pull/421) — fix\(profile\): preserve default values in snapshots
+- **已合并** · [yetone/magpie #418](https://github.com/yetone/magpie/pull/418) — fix\(backup\): exclude balance tokens from keyless exports
+- **进行中** · [yetone/magpie #403](https://github.com/yetone/magpie/pull/403) — fix\(gateway\): preserve optional-field validation errors
+- **已合并** · [yetone/magpie #401](https://github.com/yetone/magpie/pull/401) — fix\(gateway\): avoid retrying refused off efforts
 
-近期提交的合并状态以各 PR 页面为准。
+[完整公开 PR 记录](https://github.com/TryWorld2026/TryWorld2026/blob/main/CONTRIBUTIONS.md) · [全部公开 PR](https://github.com/search?q=author%3ATryWorld2026+is%3Apr+is%3Apublic&type=pullrequests) · [Issue](https://github.com/search?q=author%3ATryWorld2026+is%3Aissue+is%3Apublic&type=issues) · [评审](https://github.com/search?q=reviewed-by%3ATryWorld2026+is%3Apr+is%3Apublic&type=pullrequests) · [提交](https://github.com/search?q=author%3ATryWorld2026&type=commits)
+
+<sub>每天自动同步。Issue、评审和直接提交可通过上面的原始记录入口查看。</sub>
+<!-- CONTRIBUTIONS:END -->
 
 ## 技术方向
 

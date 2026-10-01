@@ -1,0 +1,73 @@
+name: Refresh contributions
+
+on:
+  schedule:
+    # Daily at 08:17 Asia/Shanghai, away from the busy start of the hour.
+    - cron: '17 0 * * *'
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - 'scripts/**'
+      - 'tests/**'
+      - '.github/workflows/update-contributions.yml'
+      - 'README.md'
+      - 'README.en.md'
+  pull_request:
+    paths:
+      - 'scripts/**'
+      - 'tests/**'
+      - '.github/workflows/update-contributions.yml'
+
+permissions:
+  contents: read
+
+concurrency:
+  group: profile-contributions-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+      - uses: actions/setup-python@5fda3b95a4ea91299a34e894583c3862153e4b97 # v7.0.0
+        with:
+          python-version: '3.13'
+      - name: Test contribution generation and preservation
+        run: python -m unittest discover -s tests -v
+
+  refresh:
+    needs: validate
+    if: github.repository == 'TryWorld2026/TryWorld2026' && github.ref == 'refs/heads/main' && github.event_name != 'pull_request'
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    permissions:
+      contents: write
+      pull-requests: read
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+      - uses: actions/setup-python@5fda3b95a4ea91299a34e894583c3862153e4b97 # v7.0.0
+        with:
+          python-version: '3.13'
+      - name: Fetch public PRs and update both languages
+        env:
+          GH_TOKEN: ${{ github.token }}
+          PROFILE_USER: ${{ github.repository_owner }}
+        run: python scripts/update_profile.py --user "$PROFILE_USER"
+      - name: Commit changed contribution records
+        env:
+          GIT_AUTHOR_NAME: github-actions[bot]
+          GIT_AUTHOR_EMAIL: 41898282+github-actions[bot]@users.noreply.github.com
+          GIT_COMMITTER_NAME: github-actions[bot]
+          GIT_COMMITTER_EMAIL: 41898282+github-actions[bot]@users.noreply.github.com
+        run: |
+          git add -- README.md README.en.md CONTRIBUTIONS.md
+          if git diff --cached --quiet; then
+            echo 'Contribution records unchanged.'
+            exit 0
+          fi
+          git diff --cached --check
+          git commit -m 'docs(profile): refresh public contributions'
+          git push origin HEAD:main
