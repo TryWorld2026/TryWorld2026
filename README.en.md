@@ -14,26 +14,26 @@ I turn ideas into useful tools: AI workflows, desktop utilities, and web product
 ## Open source
 
 <!-- CONTRIBUTIONS:START -->
-**15 merged PRs · 3 external projects**
+**18 merged PRs · 3 external projects**
 
 My contributions accepted and merged into external open-source projects.
 
 | Project | Merged PRs |
 | --- | --- |
-| [yetone/magpie](https://github.com/yetone/magpie) | 5 |
+| [yetone/magpie](https://github.com/yetone/magpie) | 8 |
 | [ShDH-CMYK/heikesong-zuopin](https://github.com/ShDH-CMYK/heikesong-zuopin) | 1 |
 | [open-city-ai/haidian](https://github.com/open-city-ai/haidian) | 9 |
 
 **Recently merged**
 
+- [yetone/magpie #461](https://github.com/yetone/magpie/pull/461) — feat\(gui\): collapse overflowing Sessions agent tabs into a picker
+- [yetone/magpie #451](https://github.com/yetone/magpie/pull/451) — fix\(gateway\): recognize optional-field errors after status prefixes
+- [yetone/magpie #403](https://github.com/yetone/magpie/pull/403) — fix\(gateway\): preserve optional-field validation errors
 - [yetone/magpie #424](https://github.com/yetone/magpie/pull/424) — test\(gateway\): handle intermediate session route poll updates
 - [yetone/magpie #421](https://github.com/yetone/magpie/pull/421) — fix\(profile\): preserve default values in snapshots
 - [yetone/magpie #418](https://github.com/yetone/magpie/pull/418) — fix\(backup\): exclude balance tokens from keyless exports
 - [yetone/magpie #415](https://github.com/yetone/magpie/pull/415) — fix\(provider\): preserve unreadable configuration on edits
 - [yetone/magpie #401](https://github.com/yetone/magpie/pull/401) — fix\(gateway\): avoid retrying refused off efforts
-- [ShDH-CMYK/heikesong-zuopin #1](https://github.com/ShDH-CMYK/heikesong-zuopin/pull/1) — feat: 接入真实 AI——样本输入、实时生成报告与内部批注（v2 核心）
-- [open-city-ai/haidian #695](https://github.com/open-city-ai/haidian/pull/695) — docs: align iteration metadata to v0.2.1 + changelog entry
-- [open-city-ai/haidian #664](https://github.com/open-city-ai/haidian/pull/664) — Update parallel-rails to v0.2.1: machine-readable Gauge artifacts \(schema, GEI, evidence ladder\)
 
 [Complete merged PR archive](https://github.com/TryWorld2026/TryWorld2026/blob/main/CONTRIBUTIONS.md) · [Merged PRs on GitHub](https://github.com/search?q=author%3ATryWorld2026+is%3Apr+is%3Apublic+is%3Amerged&type=pullrequests)
 

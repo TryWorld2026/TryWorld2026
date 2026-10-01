@@ -1,6 +1,6 @@
 # 已合并 PR 贡献记录 · Merged pull requests
 
-作者：[TryWorld2026](https://github.com/TryWorld2026) · 17 个已合并 PR · 15 个外部项目 PR · 2 个自身项目 PR
+作者：[TryWorld2026](https://github.com/TryWorld2026) · 20 个已合并 PR · 18 个外部项目 PR · 2 个自身项目 PR
 
 自动核对月份：**2026-10**（北京时间）。有变动时更新记录，至少每月刷新一次核对月份。
 
@@ -14,6 +14,9 @@
 
 | 合并日期（北京时间） | 项目 / PR | 标题 / Title |
 | --- | --- | --- |
+| 2026-10-02 | [yetone/magpie #461](https://github.com/yetone/magpie/pull/461) | feat\(gui\): collapse overflowing Sessions agent tabs into a picker |
+| 2026-10-02 | [yetone/magpie #451](https://github.com/yetone/magpie/pull/451) | fix\(gateway\): recognize optional-field errors after status prefixes |
+| 2026-10-01 | [yetone/magpie #403](https://github.com/yetone/magpie/pull/403) | fix\(gateway\): preserve optional-field validation errors |
 | 2026-10-01 | [yetone/magpie #424](https://github.com/yetone/magpie/pull/424) | test\(gateway\): handle intermediate session route poll updates |
 | 2026-10-01 | [yetone/magpie #421](https://github.com/yetone/magpie/pull/421) | fix\(profile\): preserve default values in snapshots |
 | 2026-10-01 | [yetone/magpie #418](https://github.com/yetone/magpie/pull/418) | fix\(backup\): exclude balance tokens from keyless exports |
