@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="280" viewBox="0 0 1200 280" role="img" aria-labelledby="title desc">
+  <title id="title">TryWorld — Explore by Trying.</title>
+  <desc id="desc">An original geometric TW monogram on a midnight blue coordinate grid, connecting trying, building, and sharing.</desc>
+  <rect width="1200" height="280" rx="12" fill="#071c28"/>
+  <rect x="1" y="1" width="1198" height="278" rx="11" fill="none" stroke="#234251"/>
+  <path d="M50 43h23v6H50zm8 6h7v18h-7zM77 43h6l5 17 5-13h5l5 13 5-17h6l-8 24h-6l-5-13-5 13h-6z" fill="#47efcd"/>
+  <text x="133" y="59" fill="#95afbe" font-family="'Cascadia Code',Consolas,monospace" font-size="13" letter-spacing="2.5">IDEAS INTO TOOLS</text>
+  <text x="46" y="151" fill="#edf6fc" font-family="'Trebuchet MS',Verdana,sans-serif" font-size="84" font-weight="700" letter-spacing="-4">TryWorld<tspan fill="#47efcd">.</tspan></text>
+  <text x="51" y="194" fill="#a3c1d1" font-family="'Cascadia Code',Consolas,monospace" font-size="21">Explore by Trying.</text>
+  <path d="M51 220h480" stroke="#234251"/>
+  <g font-family="'Cascadia Code',Consolas,monospace" font-size="12" letter-spacing="1.5" fill="#95afbe">
+    <text x="51" y="249">AI TOOLS</text>
+    <circle cx="161" cy="245" r="2" fill="#47efcd"/>
+    <text x="181" y="249">DESKTOP</text>
+    <circle cx="279" cy="245" r="2" fill="#47efcd"/>
+    <text x="299" y="249">OPEN SOURCE</text>
+  </g>
+  <g fill="none" stroke="#234251" stroke-width="1">
+    <path d="M764 40h388M764 80h388M764 120h388M764 160h388M764 200h388M764 240h388"/>
+    <path d="M792 28v224M832 28v224M872 28v224M912 28v224M952 28v224M992 28v224M1032 28v224M1072 28v224M1112 28v224"/>
+  </g>
+  <rect x="824" y="87" width="280" height="114" rx="4" fill="#071c28" stroke="#456c81" stroke-width="1.2"/>
+  <path d="M842 98h87v18h-34v70h-19v-70h-34z" fill="#edf6fc"/>
+  <path d="M949 98h20l16 59 16-46h17l16 46 16-59h20l-24 88h-22l-14-43-15 43h-22z" fill="#edf6fc"/>
+  <path d="M794 216h30v-30M1104 114h28v-50h-46" fill="none" stroke="#47efcd" stroke-width="2"/>
+  <circle cx="794" cy="216" r="5" fill="#47efcd"/>
+  <circle cx="1086" cy="64" r="5" fill="#47efcd"/>
+  <rect x="1099" y="196" width="10" height="10" fill="#70a9ff"/>
+  <path d="M778 47h12M784 41v12M1122 222h12M1128 216v12" stroke="#456c81"/>
+  <text x="827" y="231" fill="#95afbe" font-family="'Cascadia Code',Consolas,monospace" font-size="12" letter-spacing="2">TRY / BUILD / SHARE</text>
+</svg>
