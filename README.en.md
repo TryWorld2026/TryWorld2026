@@ -14,33 +14,30 @@ I turn ideas into useful tools: AI workflows, desktop utilities, and web product
 ## Open source
 
 <!-- CONTRIBUTIONS:START -->
-**22 public PRs · 15 merged · 6 external projects**
+**15 merged PRs · 3 external projects**
 
-3 open (including drafts), 4 closed without merging. Public PRs submitted to external open-source projects.
+My contributions accepted and merged into external open-source projects.
 
-| Project | Merged / Submitted |
+| Project | Merged PRs |
 | --- | --- |
-| [yetone/magpie](https://github.com/yetone/magpie) | 5 / 8 |
-| [ShDH-CMYK/heikesong-zuopin](https://github.com/ShDH-CMYK/heikesong-zuopin) | 1 / 1 |
-| [open-city-ai/haidian](https://github.com/open-city-ai/haidian) | 9 / 10 |
-| [ringhyacinth/Star-Office-UI](https://github.com/ringhyacinth/Star-Office-UI) | 0 / 1 |
-| [kubevela/kubevela](https://github.com/kubevela/kubevela) | 0 / 1 |
-| [srizzon/git-city](https://github.com/srizzon/git-city) | 0 / 1 |
+| [yetone/magpie](https://github.com/yetone/magpie) | 5 |
+| [ShDH-CMYK/heikesong-zuopin](https://github.com/ShDH-CMYK/heikesong-zuopin) | 1 |
+| [open-city-ai/haidian](https://github.com/open-city-ai/haidian) | 9 |
 
-**Recent updates**
+**Recently merged**
 
-- **Merged** · [yetone/magpie #424](https://github.com/yetone/magpie/pull/424) — test\(gateway\): handle intermediate session route poll updates
-- **Draft** · [yetone/magpie #427](https://github.com/yetone/magpie/pull/427) — agent: add Reasonix Studio 2.x integration
-- **Draft** · [yetone/magpie #428](https://github.com/yetone/magpie/pull/428) — gui: tolerate rounded header bounds when fitting navigation
-- **Merged** · [yetone/magpie #415](https://github.com/yetone/magpie/pull/415) — fix\(provider\): preserve unreadable configuration on edits
-- **Merged** · [yetone/magpie #421](https://github.com/yetone/magpie/pull/421) — fix\(profile\): preserve default values in snapshots
-- **Merged** · [yetone/magpie #418](https://github.com/yetone/magpie/pull/418) — fix\(backup\): exclude balance tokens from keyless exports
-- **Open** · [yetone/magpie #403](https://github.com/yetone/magpie/pull/403) — fix\(gateway\): preserve optional-field validation errors
-- **Merged** · [yetone/magpie #401](https://github.com/yetone/magpie/pull/401) — fix\(gateway\): avoid retrying refused off efforts
+- [yetone/magpie #424](https://github.com/yetone/magpie/pull/424) — test\(gateway\): handle intermediate session route poll updates
+- [yetone/magpie #421](https://github.com/yetone/magpie/pull/421) — fix\(profile\): preserve default values in snapshots
+- [yetone/magpie #418](https://github.com/yetone/magpie/pull/418) — fix\(backup\): exclude balance tokens from keyless exports
+- [yetone/magpie #415](https://github.com/yetone/magpie/pull/415) — fix\(provider\): preserve unreadable configuration on edits
+- [yetone/magpie #401](https://github.com/yetone/magpie/pull/401) — fix\(gateway\): avoid retrying refused off efforts
+- [ShDH-CMYK/heikesong-zuopin #1](https://github.com/ShDH-CMYK/heikesong-zuopin/pull/1) — feat: 接入真实 AI——样本输入、实时生成报告与内部批注（v2 核心）
+- [open-city-ai/haidian #695](https://github.com/open-city-ai/haidian/pull/695) — docs: align iteration metadata to v0.2.1 + changelog entry
+- [open-city-ai/haidian #664](https://github.com/open-city-ai/haidian/pull/664) — Update parallel-rails to v0.2.1: machine-readable Gauge artifacts \(schema, GEI, evidence ladder\)
 
-[Complete public PR archive](https://github.com/TryWorld2026/TryWorld2026/blob/main/CONTRIBUTIONS.md) · [All public PRs](https://github.com/search?q=author%3ATryWorld2026+is%3Apr+is%3Apublic&type=pullrequests) · [Issues](https://github.com/search?q=author%3ATryWorld2026+is%3Aissue+is%3Apublic&type=issues) · [Reviews](https://github.com/search?q=reviewed-by%3ATryWorld2026+is%3Apr+is%3Apublic&type=pullrequests) · [Commits](https://github.com/search?q=author%3ATryWorld2026&type=commits)
+[Complete merged PR archive](https://github.com/TryWorld2026/TryWorld2026/blob/main/CONTRIBUTIONS.md) · [Merged PRs on GitHub](https://github.com/search?q=author%3ATryWorld2026+is%3Apr+is%3Apublic+is%3Amerged&type=pullrequests)
 
-<sub>Synced daily. The links above also cover issues, reviews, and direct commits.</sub>
+<sub>Synced daily as public PRs are merged.</sub>
 <!-- CONTRIBUTIONS:END -->
 
 ## What I work with

@@ -5,11 +5,13 @@ The profile checks public pull requests daily, scheduled for 08:17 Asia/Shanghai
 profile README also trigger a refresh. You can run it immediately from
 [Refresh contributions](https://github.com/TryWorld2026/TryWorld2026/actions/workflows/update-contributions.yml).
 
-The homepage summarizes every public PR submitted to external repositories and
-shows the eight most recently updated PRs. `CONTRIBUTIONS.md` contains the complete
-public PR list, with PRs to your own repositories in a separate section. Issues,
-reviews, and direct commits have links to their original GitHub records. These
-PR totals have a different scope from GitHub's contribution calendar.
+The homepage summarizes merged public PRs contributed to external repositories
+and shows the eight most recently merged PRs, ordered by merge time.
+`CONTRIBUTIONS.md` contains the complete merged public PR list, with merged PRs to
+your own repositories in a separate section. Counts, repository summaries, list
+entries, and GitHub search links all follow this merged-only scope. Projects only
+appear in the summary after their first merged contribution. These PR totals have
+a different scope from GitHub's contribution calendar.
 
 The generator follows the user's PR connection through every page, so it does
 not depend on GitHub Search's first 1,000 results. It filters private repositories

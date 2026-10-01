@@ -14,33 +14,30 @@
 ## 开源贡献
 
 <!-- CONTRIBUTIONS:START -->
-**22 个公开 PR · 15 个已合并 · 6 个外部项目**
+**15 个已合并 PR · 3 个外部项目**
 
-3 个进行中（含草稿），4 个已关闭。统计我向外部开源项目提交的公开 PR。
+我向外部开源项目贡献的成果，已被上游合并。
 
-| 项目 | 已合并 / 提交 |
+| 项目 | 已合并 PR |
 | --- | --- |
-| [yetone/magpie](https://github.com/yetone/magpie) | 5 / 8 |
-| [ShDH-CMYK/heikesong-zuopin](https://github.com/ShDH-CMYK/heikesong-zuopin) | 1 / 1 |
-| [open-city-ai/haidian](https://github.com/open-city-ai/haidian) | 9 / 10 |
-| [ringhyacinth/Star-Office-UI](https://github.com/ringhyacinth/Star-Office-UI) | 0 / 1 |
-| [kubevela/kubevela](https://github.com/kubevela/kubevela) | 0 / 1 |
-| [srizzon/git-city](https://github.com/srizzon/git-city) | 0 / 1 |
+| [yetone/magpie](https://github.com/yetone/magpie) | 5 |
+| [ShDH-CMYK/heikesong-zuopin](https://github.com/ShDH-CMYK/heikesong-zuopin) | 1 |
+| [open-city-ai/haidian](https://github.com/open-city-ai/haidian) | 9 |
 
-**最近更新**
+**最近合并**
 
-- **已合并** · [yetone/magpie #424](https://github.com/yetone/magpie/pull/424) — test\(gateway\): handle intermediate session route poll updates
-- **草稿** · [yetone/magpie #427](https://github.com/yetone/magpie/pull/427) — agent: add Reasonix Studio 2.x integration
-- **草稿** · [yetone/magpie #428](https://github.com/yetone/magpie/pull/428) — gui: tolerate rounded header bounds when fitting navigation
-- **已合并** · [yetone/magpie #415](https://github.com/yetone/magpie/pull/415) — fix\(provider\): preserve unreadable configuration on edits
-- **已合并** · [yetone/magpie #421](https://github.com/yetone/magpie/pull/421) — fix\(profile\): preserve default values in snapshots
-- **已合并** · [yetone/magpie #418](https://github.com/yetone/magpie/pull/418) — fix\(backup\): exclude balance tokens from keyless exports
-- **进行中** · [yetone/magpie #403](https://github.com/yetone/magpie/pull/403) — fix\(gateway\): preserve optional-field validation errors
-- **已合并** · [yetone/magpie #401](https://github.com/yetone/magpie/pull/401) — fix\(gateway\): avoid retrying refused off efforts
+- [yetone/magpie #424](https://github.com/yetone/magpie/pull/424) — test\(gateway\): handle intermediate session route poll updates
+- [yetone/magpie #421](https://github.com/yetone/magpie/pull/421) — fix\(profile\): preserve default values in snapshots
+- [yetone/magpie #418](https://github.com/yetone/magpie/pull/418) — fix\(backup\): exclude balance tokens from keyless exports
+- [yetone/magpie #415](https://github.com/yetone/magpie/pull/415) — fix\(provider\): preserve unreadable configuration on edits
+- [yetone/magpie #401](https://github.com/yetone/magpie/pull/401) — fix\(gateway\): avoid retrying refused off efforts
+- [ShDH-CMYK/heikesong-zuopin #1](https://github.com/ShDH-CMYK/heikesong-zuopin/pull/1) — feat: 接入真实 AI——样本输入、实时生成报告与内部批注（v2 核心）
+- [open-city-ai/haidian #695](https://github.com/open-city-ai/haidian/pull/695) — docs: align iteration metadata to v0.2.1 + changelog entry
+- [open-city-ai/haidian #664](https://github.com/open-city-ai/haidian/pull/664) — Update parallel-rails to v0.2.1: machine-readable Gauge artifacts \(schema, GEI, evidence ladder\)
 
-[完整公开 PR 记录](https://github.com/TryWorld2026/TryWorld2026/blob/main/CONTRIBUTIONS.md) · [全部公开 PR](https://github.com/search?q=author%3ATryWorld2026+is%3Apr+is%3Apublic&type=pullrequests) · [Issue](https://github.com/search?q=author%3ATryWorld2026+is%3Aissue+is%3Apublic&type=issues) · [评审](https://github.com/search?q=reviewed-by%3ATryWorld2026+is%3Apr+is%3Apublic&type=pullrequests) · [提交](https://github.com/search?q=author%3ATryWorld2026&type=commits)
+[完整合并记录](https://github.com/TryWorld2026/TryWorld2026/blob/main/CONTRIBUTIONS.md) · [GitHub 已合并 PR](https://github.com/search?q=author%3ATryWorld2026+is%3Apr+is%3Apublic+is%3Amerged&type=pullrequests)
 
-<sub>每天自动同步。Issue、评审和直接提交可通过上面的原始记录入口查看。</sub>
+<sub>每天自动同步新合并的公开 PR。</sub>
 <!-- CONTRIBUTIONS:END -->
 
 ## 技术方向

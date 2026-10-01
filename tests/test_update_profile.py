@@ -68,21 +68,22 @@ class ContributionTests(unittest.TestCase):
         with self.assertRaises(RuntimeError):
             updater.fetch_contributions(LOGIN, paged_request(response([item])))
 
-    def test_homepage_counts_external_prs_and_distinguishes_statuses(self):
+    def test_homepage_lists_only_merged_external_prs_in_both_languages(self):
         records = [
             pull_request(1), pull_request(2, state='OPEN', draft=True),
             pull_request(3, repo='another/tool', state='CLOSED'),
             pull_request(4, repo='tryworld2026/own'),
             pull_request(5, repo='secret/private', private=True),
         ]
-        text = updater.render_readme(LOGIN, records)
-        self.assertIn('**3 个公开 PR · 1 个已合并 · 2 个外部项目**', text)
-        self.assertIn('1 个进行中', text)
-        self.assertIn('1 个已关闭', text)
-        self.assertIn('草稿', text)
-        self.assertIn('已关闭', text)
-        self.assertNotIn('secret/private', text)
-        self.assertNotIn('tryworld2026/own', text)
+        for language, summary in [('zh', '**1 个已合并 PR · 1 个外部项目**'), ('en', '**1 merged PR · 1 external project**')]:
+            with self.subTest(language=language):
+                text = updater.render_readme(LOGIN, records, language)
+                self.assertIn(summary, text)
+                self.assertIn(records[0]['url'], text)
+                for excluded in records[1:]:
+                    self.assertNotIn(excluded['url'], text)
+                for excluded_repo in ('another/tool', 'secret/private', 'tryworld2026/own'):
+                    self.assertNotIn(excluded_repo, text)
 
     def test_titles_are_safe_markdown_and_cannot_replace_block_markers(self):
         title = '<script>bad</script> | [spoof](javascript:bad) <!-- CONTRIBUTIONS:END -->\nsecond line'
@@ -102,6 +103,56 @@ class ContributionTests(unittest.TestCase):
         self.assertIn('自身项目', text)
         self.assertNotIn('secret/private', text)
         self.assertNotEqual(text, updater.render_archive(LOGIN, records, '2026-11'))
+
+    def test_archive_excludes_unmerged_prs_from_external_and_own_projects(self):
+        records = [pull_request(1), pull_request(2, state='OPEN', draft=True),
+                   pull_request(3, state='CLOSED'), pull_request(4, repo=f'{LOGIN}/own'),
+                   pull_request(5, repo=f'{LOGIN}/own', state='OPEN')]
+        text = updater.render_archive(LOGIN, records, MONTH)
+        self.assertIn('2 个已合并 PR', text)
+        for included in (records[0], records[3]):
+            self.assertIn(included['url'], text)
+        for excluded in (records[1], records[2], records[4]):
+            self.assertNotIn(excluded['url'], text)
+        for word in ('草稿', '进行中', '已关闭', 'Draft', 'Closed'):
+            self.assertNotIn(word, text)
+
+    def test_merges_are_ordered_by_merge_time_not_later_comments(self):
+        older, newer = pull_request(1), pull_request(2)
+        older['updatedAt'] = '2026-10-04T08:00:00Z'
+        for text in (updater.render_readme(LOGIN, [older, newer]), updater.render_archive(LOGIN, [older, newer], MONTH)):
+            self.assertLess(text.index(newer['url']), text.index(older['url']))
+
+    def test_invalid_merge_timestamp_is_rejected(self):
+        item = pull_request(1)
+        item['mergedAt'] = '2026-10-01'
+        with self.assertRaises(RuntimeError):
+            updater.fetch_contributions(LOGIN, paged_request(response([item])))
+
+    def test_native_pr_search_only_links_to_merged_prs(self):
+        from urllib.parse import parse_qs
+        import re
+        for language in ('zh', 'en'):
+            text = updater.render_readme(LOGIN, [pull_request(1)], language)
+            queries = [parse_qs(query)['q'][0] for query in re.findall(r'https://github.com/search\?([^\s)]+)', text)]
+            pr_queries = [query for query in queries if 'is:pr' in query]
+            self.assertTrue(pr_queries)
+            self.assertTrue(all('is:merged' in query for query in pr_queries))
+
+    def test_pr_appears_in_both_languages_and_archive_after_it_merges(self):
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory)
+            for name in ('README.md', 'README.en.md'):
+                (root / name).write_bytes(TEMPLATE.encode('utf-8'))
+            pending = pull_request(1, state='OPEN', draft=True)
+            updater.sync_profile(root, LOGIN, MONTH, paged_request(response([pending])))
+            for name in ('README.md', 'README.en.md', 'CONTRIBUTIONS.md'):
+                self.assertNotIn(pending['url'], (root / name).read_text(encoding='utf-8'))
+            merged = pull_request(1)
+            changed = updater.sync_profile(root, LOGIN, MONTH, paged_request(response([merged])))
+            self.assertEqual(len(changed), 3)
+            for name in ('README.md', 'README.en.md', 'CONTRIBUTIONS.md'):
+                self.assertIn(merged['url'], (root / name).read_text(encoding='utf-8'))
 
     def test_bilingual_generation_preserves_surrounding_text(self):
         with tempfile.TemporaryDirectory() as directory:

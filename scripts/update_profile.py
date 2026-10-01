@@ -66,8 +66,9 @@ def public_records(items):
             for key in ('createdAt', 'updatedAt'):
                 if datetime.fromisoformat(item[key].replace('Z', '+00:00')).tzinfo is None:
                     raise ValueError('Missing timestamp timezone')
-            if item['state'] == 'MERGED' and not item['mergedAt']:
-                raise ValueError('Missing merge timestamp')
+            if item['state'] == 'MERGED':
+                if datetime.fromisoformat(item['mergedAt'].replace('Z', '+00:00')).tzinfo is None:
+                    raise ValueError('Missing merge timestamp timezone')
         except (KeyError, TypeError, ValueError, AttributeError) as error:
             raise RuntimeError('GitHub returned an invalid PR record; refusing a partial refresh.') from error
         records.append(item)
@@ -115,77 +116,66 @@ def markdown(text):
 
 def split_records(login, items):
     external, own = [], []
-    for item in public_records(items):
+    merged = [item for item in public_records(items) if item['state'] == 'MERGED']
+    for item in sorted(merged, key=lambda p: (p['mergedAt'], p['url']), reverse=True):
         bucket = own if item['repository']['owner']['login'].casefold() == login.casefold() else external
         bucket.append(item)
     return external, own
 
 
-def status(item, language='zh'):
-    key = 'DRAFT' if item['state'] == 'OPEN' and item['isDraft'] else item['state']
-    labels = {'zh': {'OPEN': '进行中', 'DRAFT': '草稿', 'MERGED': '已合并', 'CLOSED': '已关闭'},
-              'en': {'OPEN': 'Open', 'DRAFT': 'Draft', 'MERGED': 'Merged', 'CLOSED': 'Closed'}}
-    return labels[language][key]
-
-
-def activity_links(login, language):
-    searches = [('全部公开 PR', 'All public PRs', f'author:{login} is:pr is:public', 'pullrequests'),
-                ('Issue', 'Issues', f'author:{login} is:issue is:public', 'issues'),
-                ('评审', 'Reviews', f'reviewed-by:{login} is:pr is:public', 'pullrequests'),
-                ('提交', 'Commits', f'author:{login}', 'commits')]
-    return ' · '.join(f'[{zh if language == "zh" else en}](https://github.com/search?{urlencode({"q": query, "type": kind})})'
-                      for zh, en, query, kind in searches)
+def merged_search_link(login, language):
+    label = 'GitHub 已合并 PR' if language == 'zh' else 'Merged PRs on GitHub'
+    query = urlencode({'q': f'author:{login} is:pr is:public is:merged', 'type': 'pullrequests'})
+    return f'[{label}](https://github.com/search?{query})'
 
 
 def render_readme(login, pull_requests, language='zh'):
     external, _ = split_records(login, pull_requests)
-    merged = sum(p['state'] == 'MERGED' for p in external)
-    opened = sum(p['state'] == 'OPEN' for p in external)
-    closed = len(external) - merged - opened
     by_repo = defaultdict(list)
     for item in external:
         by_repo[item['repository']['nameWithOwner']].append(item)
     archive = f'https://github.com/{login}/{login}/blob/main/CONTRIBUTIONS.md'
     if language == 'zh':
-        lines = [f'**{len(external)} 个公开 PR · {merged} 个已合并 · {len(by_repo)} 个外部项目**', '',
-                 f'{opened} 个进行中（含草稿），{closed} 个已关闭。统计我向外部开源项目提交的公开 PR。', '',
-                 '| 项目 | 已合并 / 提交 |', '| --- | --- |']
+        lines = [f'**{len(external)} 个已合并 PR · {len(by_repo)} 个外部项目**', '',
+                 '我向外部开源项目贡献的成果，已被上游合并。', '',
+                 '| 项目 | 已合并 PR |', '| --- | --- |']
     else:
-        lines = [f'**{len(external)} public PRs · {merged} merged · {len(by_repo)} external projects**', '',
-                 f'{opened} open (including drafts), {closed} closed without merging. Public PRs submitted to external open-source projects.', '',
-                 '| Project | Merged / Submitted |', '| --- | --- |']
-    for repo, items in sorted(by_repo.items(), key=lambda pair: (pair[1][0]['updatedAt'], pair[0]), reverse=True):
-        count = sum(p['state'] == 'MERGED' for p in items)
-        lines.append(f'| [{markdown(repo)}](https://github.com/{repo}) | {count} / {len(items)} |')
-    lines += ['', '**最近更新**' if language == 'zh' else '**Recent updates**', '']
+        pr_word = 'PR' if len(external) == 1 else 'PRs'
+        project_word = 'project' if len(by_repo) == 1 else 'projects'
+        lines = [f'**{len(external)} merged {pr_word} · {len(by_repo)} external {project_word}**', '',
+                 'My contributions accepted and merged into external open-source projects.', '',
+                 '| Project | Merged PRs |', '| --- | --- |']
+    for repo, items in sorted(by_repo.items(), key=lambda pair: (pair[1][0]['mergedAt'], pair[0]), reverse=True):
+        lines.append(f'| [{markdown(repo)}](https://github.com/{repo}) | {len(items)} |')
+    lines += ['', '**最近合并**' if language == 'zh' else '**Recently merged**', '']
     for item in external[:8]:
         repo = item['repository']['nameWithOwner']
-        lines.append(f'- **{status(item, language)}** · [{markdown(repo)} #{item["number"]}]({item["url"]}) — {markdown(item["title"])}')
+        lines.append(f'- [{markdown(repo)} #{item["number"]}]({item["url"]}) — {markdown(item["title"])}')
     if not external:
-        lines.append('公开 PR 会在提交后自动加入这里。' if language == 'zh' else 'Public PRs will appear here after they are submitted.')
-    lines += ['', f'[完整公开 PR 记录]({archive}) · {activity_links(login, language)}' if language == 'zh'
-              else f'[Complete public PR archive]({archive}) · {activity_links(login, language)}', '',
-              '<sub>每天自动同步。Issue、评审和直接提交可通过上面的原始记录入口查看。</sub>' if language == 'zh'
-              else '<sub>Synced daily. The links above also cover issues, reviews, and direct commits.</sub>']
+        lines.append('已合并的公开 PR 会自动加入这里。' if language == 'zh' else 'Public PRs will appear here after they are merged.')
+    lines += ['', f'[完整合并记录]({archive}) · {merged_search_link(login, language)}' if language == 'zh'
+              else f'[Complete merged PR archive]({archive}) · {merged_search_link(login, language)}', '',
+              '<sub>每天自动同步新合并的公开 PR。</sub>' if language == 'zh'
+              else '<sub>Synced daily as public PRs are merged.</sub>']
     return '\n'.join(lines) + '\n'
 
 
 def render_archive(login, pull_requests, verified_month):
     datetime.strptime(verified_month, '%Y-%m')
     external, own = split_records(login, pull_requests)
-    lines = ['# 公开 PR 贡献记录 · Public pull requests', '',
-             f'作者：[{login}](https://github.com/{login}) · {len(external) + len(own)} 个公开 PR · {len(external)} 个外部项目 PR · {len(own)} 个自身项目 PR', '',
+    lines = ['# 已合并 PR 贡献记录 · Merged pull requests', '',
+             f'作者：[{login}](https://github.com/{login}) · {len(external) + len(own)} 个已合并 PR · {len(external)} 个外部项目 PR · {len(own)} 个自身项目 PR', '',
              f'自动核对月份：**{verified_month}**（北京时间）。有变动时更新记录，至少每月刷新一次核对月份。', '',
-             '本列表汇总公开 PR。Issue、评审和直接提交可通过原始 GitHub 记录查看。', '', activity_links(login, 'zh'), '',
+             '本列表收录已被合并的公开 PR。', '', merged_search_link(login, 'zh'), '',
              f'[主页](https://github.com/{login}) · [English](https://github.com/{login}/{login}/blob/main/README.en.md)', '']
     for title, items in [('外部项目 · External projects', external), ('自身项目 · Own projects', own)]:
-        lines += [f'## {title}', '', '| 最近更新（北京时间） | 项目 / PR | 状态 / Status | 标题 / Title |', '| --- | --- | --- | --- |']
+        lines += [f'## {title}', '', '| 合并日期（北京时间） | 项目 / PR | 标题 / Title |', '| --- | --- | --- |']
         for item in items:
-            date = datetime.fromisoformat(item['updatedAt'].replace('Z', '+00:00')).astimezone(CHINA).date().isoformat()
+            date = datetime.fromisoformat(item['mergedAt'].replace('Z', '+00:00')).astimezone(CHINA).date().isoformat()
             repo = item['repository']['nameWithOwner']
-            lines.append(f'| {date} | [{markdown(repo)} #{item["number"]}]({item["url"]}) | {status(item)} / {status(item, "en")} | {markdown(item["title"])} |')
+            lines.append(f'| {date} | [{markdown(repo)} #{item["number"]}]({item["url"]}) | {markdown(item["title"])} |')
         if not items:
-            lines.append('| — | — | — | — |')
+            lines.append('| — | — | — |')
         lines.append('')
     return '\n'.join(lines)
 
