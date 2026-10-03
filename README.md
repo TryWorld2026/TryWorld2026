@@ -14,26 +14,26 @@
 ## 开源贡献
 
 <!-- CONTRIBUTIONS:START -->
-**23 个已合并 PR · 3 个外部项目**
+**30 个已合并 PR · 3 个外部项目**
 
 我向外部开源项目贡献的成果，已被上游合并。
 
 | 项目 | 已合并 PR |
 | --- | --- |
-| [yetone/magpie](https://github.com/yetone/magpie) | 13 |
+| [yetone/magpie](https://github.com/yetone/magpie) | 20 |
 | [ShDH-CMYK/heikesong-zuopin](https://github.com/ShDH-CMYK/heikesong-zuopin) | 1 |
 | [open-city-ai/haidian](https://github.com/open-city-ai/haidian) | 9 |
 
 **最近合并**
 
+- [yetone/magpie #673](https://github.com/yetone/magpie/pull/673) — davsync: keep settings credentials scoped during partial sync
+- [yetone/magpie #643](https://github.com/yetone/magpie/pull/643) — fix: sync independent gateway key changes
+- [yetone/magpie #642](https://github.com/yetone/magpie/pull/642) — backup: restore the saved provider priority order
+- [yetone/magpie #641](https://github.com/yetone/magpie/pull/641) — accounts: separate usage deduplication from query results
+- [yetone/magpie #640](https://github.com/yetone/magpie/pull/640) — library: preserve MCP sign-ins when a rename is rejected
+- [yetone/magpie #639](https://github.com/yetone/magpie/pull/639) — edit: keep inserted JSONC fields out of leading comments
+- [yetone/magpie #637](https://github.com/yetone/magpie/pull/637) — test: run native Windows update install checks in CI
 - [yetone/magpie #632](https://github.com/yetone/magpie/pull/632) — update: restore Windows executable after a failed install
-- [yetone/magpie #630](https://github.com/yetone/magpie/pull/630) — settings: shorten the hard-link save stress test
-- [yetone/magpie #621](https://github.com/yetone/magpie/pull/621) — settings: save atomically and preserve unreadable configuration
-- [yetone/magpie #574](https://github.com/yetone/magpie/pull/574) — davsync: detect and retry short shared-usage uploads
-- [yetone/magpie #573](https://github.com/yetone/magpie/pull/573) — gateway: record stream failures in usage, routing and OTLP
-- [yetone/magpie #461](https://github.com/yetone/magpie/pull/461) — feat\(gui\): collapse overflowing Sessions agent tabs into a picker
-- [yetone/magpie #451](https://github.com/yetone/magpie/pull/451) — fix\(gateway\): recognize optional-field errors after status prefixes
-- [yetone/magpie #403](https://github.com/yetone/magpie/pull/403) — fix\(gateway\): preserve optional-field validation errors
 
 [完整合并记录](https://github.com/TryWorld2026/TryWorld2026/blob/main/CONTRIBUTIONS.md) · [GitHub 已合并 PR](https://github.com/search?q=author%3ATryWorld2026+is%3Apr+is%3Apublic+is%3Amerged&type=pullrequests)
 

@@ -1,6 +1,6 @@
 # 已合并 PR 贡献记录 · Merged pull requests
 
-作者：[TryWorld2026](https://github.com/TryWorld2026) · 25 个已合并 PR · 23 个外部项目 PR · 2 个自身项目 PR
+作者：[TryWorld2026](https://github.com/TryWorld2026) · 32 个已合并 PR · 30 个外部项目 PR · 2 个自身项目 PR
 
 自动核对月份：**2026-10**（北京时间）。有变动时更新记录，至少每月刷新一次核对月份。
 
@@ -14,6 +14,13 @@
 
 | 合并日期（北京时间） | 项目 / PR | 标题 / Title |
 | --- | --- | --- |
+| 2026-10-03 | [yetone/magpie #673](https://github.com/yetone/magpie/pull/673) | davsync: keep settings credentials scoped during partial sync |
+| 2026-10-03 | [yetone/magpie #643](https://github.com/yetone/magpie/pull/643) | fix: sync independent gateway key changes |
+| 2026-10-03 | [yetone/magpie #642](https://github.com/yetone/magpie/pull/642) | backup: restore the saved provider priority order |
+| 2026-10-03 | [yetone/magpie #641](https://github.com/yetone/magpie/pull/641) | accounts: separate usage deduplication from query results |
+| 2026-10-03 | [yetone/magpie #640](https://github.com/yetone/magpie/pull/640) | library: preserve MCP sign-ins when a rename is rejected |
+| 2026-10-03 | [yetone/magpie #639](https://github.com/yetone/magpie/pull/639) | edit: keep inserted JSONC fields out of leading comments |
+| 2026-10-03 | [yetone/magpie #637](https://github.com/yetone/magpie/pull/637) | test: run native Windows update install checks in CI |
 | 2026-10-03 | [yetone/magpie #632](https://github.com/yetone/magpie/pull/632) | update: restore Windows executable after a failed install |
 | 2026-10-03 | [yetone/magpie #630](https://github.com/yetone/magpie/pull/630) | settings: shorten the hard-link save stress test |
 | 2026-10-03 | [yetone/magpie #621](https://github.com/yetone/magpie/pull/621) | settings: save atomically and preserve unreadable configuration |
