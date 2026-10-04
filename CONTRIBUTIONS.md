@@ -1,6 +1,6 @@
 # 已合并 PR 贡献记录 · Merged pull requests
 
-作者：[TryWorld2026](https://github.com/TryWorld2026) · 32 个已合并 PR · 30 个外部项目 PR · 2 个自身项目 PR
+作者：[TryWorld2026](https://github.com/TryWorld2026) · 38 个已合并 PR · 36 个外部项目 PR · 2 个自身项目 PR
 
 自动核对月份：**2026-10**（北京时间）。有变动时更新记录，至少每月刷新一次核对月份。
 
@@ -14,6 +14,12 @@
 
 | 合并日期（北京时间） | 项目 / PR | 标题 / Title |
 | --- | --- | --- |
+| 2026-10-04 | [yetone/magpie #744](https://github.com/yetone/magpie/pull/744) | davsync: scope provider and library credentials during partial sync |
+| 2026-10-04 | [yetone/magpie #772](https://github.com/yetone/magpie/pull/772) | fix\(gui\): a reply that broke off is told as failed everywhere |
+| 2026-10-04 | [yetone/magpie #774](https://github.com/yetone/magpie/pull/774) | fix\(agent\): installs without Node ask for it the way that works |
+| 2026-10-04 | [yetone/magpie #776](https://github.com/yetone/magpie/pull/776) | fix\(gateway\): forget a broken-off reply&#x27;s stick by the account alone |
+| 2026-10-04 | [yetone/magpie #760](https://github.com/yetone/magpie/pull/760) | fix\(provider\): mark a window one model&#x27;s own as capped, as routing holds it |
+| 2026-10-04 | [yetone/magpie #761](https://github.com/yetone/magpie/pull/761) | fix\(gateway\): say when a capped drawing may come back |
 | 2026-10-03 | [yetone/magpie #673](https://github.com/yetone/magpie/pull/673) | davsync: keep settings credentials scoped during partial sync |
 | 2026-10-03 | [yetone/magpie #643](https://github.com/yetone/magpie/pull/643) | fix: sync independent gateway key changes |
 | 2026-10-03 | [yetone/magpie #642](https://github.com/yetone/magpie/pull/642) | backup: restore the saved provider priority order |

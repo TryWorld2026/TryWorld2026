@@ -14,26 +14,26 @@ I turn ideas into useful tools: AI workflows, desktop utilities, and web product
 ## Open source
 
 <!-- CONTRIBUTIONS:START -->
-**30 merged PRs · 3 external projects**
+**36 merged PRs · 3 external projects**
 
 My contributions accepted and merged into external open-source projects.
 
 | Project | Merged PRs |
 | --- | --- |
-| [yetone/magpie](https://github.com/yetone/magpie) | 20 |
+| [yetone/magpie](https://github.com/yetone/magpie) | 26 |
 | [ShDH-CMYK/heikesong-zuopin](https://github.com/ShDH-CMYK/heikesong-zuopin) | 1 |
 | [open-city-ai/haidian](https://github.com/open-city-ai/haidian) | 9 |
 
 **Recently merged**
 
+- [yetone/magpie #744](https://github.com/yetone/magpie/pull/744) — davsync: scope provider and library credentials during partial sync
+- [yetone/magpie #772](https://github.com/yetone/magpie/pull/772) — fix\(gui\): a reply that broke off is told as failed everywhere
+- [yetone/magpie #774](https://github.com/yetone/magpie/pull/774) — fix\(agent\): installs without Node ask for it the way that works
+- [yetone/magpie #776](https://github.com/yetone/magpie/pull/776) — fix\(gateway\): forget a broken-off reply&#x27;s stick by the account alone
+- [yetone/magpie #760](https://github.com/yetone/magpie/pull/760) — fix\(provider\): mark a window one model&#x27;s own as capped, as routing holds it
+- [yetone/magpie #761](https://github.com/yetone/magpie/pull/761) — fix\(gateway\): say when a capped drawing may come back
 - [yetone/magpie #673](https://github.com/yetone/magpie/pull/673) — davsync: keep settings credentials scoped during partial sync
 - [yetone/magpie #643](https://github.com/yetone/magpie/pull/643) — fix: sync independent gateway key changes
-- [yetone/magpie #642](https://github.com/yetone/magpie/pull/642) — backup: restore the saved provider priority order
-- [yetone/magpie #641](https://github.com/yetone/magpie/pull/641) — accounts: separate usage deduplication from query results
-- [yetone/magpie #640](https://github.com/yetone/magpie/pull/640) — library: preserve MCP sign-ins when a rename is rejected
-- [yetone/magpie #639](https://github.com/yetone/magpie/pull/639) — edit: keep inserted JSONC fields out of leading comments
-- [yetone/magpie #637](https://github.com/yetone/magpie/pull/637) — test: run native Windows update install checks in CI
-- [yetone/magpie #632](https://github.com/yetone/magpie/pull/632) — update: restore Windows executable after a failed install
 
 [Complete merged PR archive](https://github.com/TryWorld2026/TryWorld2026/blob/main/CONTRIBUTIONS.md) · [Merged PRs on GitHub](https://github.com/search?q=author%3ATryWorld2026+is%3Apr+is%3Apublic+is%3Amerged&type=pullrequests)
 
