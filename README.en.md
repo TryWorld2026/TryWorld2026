@@ -14,18 +14,19 @@ I turn ideas into useful tools: AI workflows, desktop utilities, and web product
 ## Open source
 
 <!-- CONTRIBUTIONS:START -->
-**38 merged PRs · 3 external projects**
+**39 merged PRs · 3 external projects**
 
 My contributions accepted and merged into external open-source projects.
 
 | Project | Merged PRs |
 | --- | --- |
-| [yetone/magpie](https://github.com/yetone/magpie) | 28 |
+| [yetone/magpie](https://github.com/yetone/magpie) | 29 |
 | [ShDH-CMYK/heikesong-zuopin](https://github.com/ShDH-CMYK/heikesong-zuopin) | 1 |
 | [open-city-ai/haidian](https://github.com/open-city-ai/haidian) | 9 |
 
 **Recently merged**
 
+- [yetone/magpie #873](https://github.com/yetone/magpie/pull/873) — fix\(gateway\): an account Antigravity turned away doesn&#x27;t rest
 - [yetone/magpie #849](https://github.com/yetone/magpie/pull/849) — fix\(gui\): skip scheme registration inside Flatpak
 - [yetone/magpie #814](https://github.com/yetone/magpie/pull/814) — fix\(gateway\): a compaction that broke off keeps the conversation&#x27;s stick
 - [yetone/magpie #744](https://github.com/yetone/magpie/pull/744) — davsync: scope provider and library credentials during partial sync
@@ -33,7 +34,6 @@ My contributions accepted and merged into external open-source projects.
 - [yetone/magpie #774](https://github.com/yetone/magpie/pull/774) — fix\(agent\): installs without Node ask for it the way that works
 - [yetone/magpie #776](https://github.com/yetone/magpie/pull/776) — fix\(gateway\): forget a broken-off reply&#x27;s stick by the account alone
 - [yetone/magpie #760](https://github.com/yetone/magpie/pull/760) — fix\(provider\): mark a window one model&#x27;s own as capped, as routing holds it
-- [yetone/magpie #761](https://github.com/yetone/magpie/pull/761) — fix\(gateway\): say when a capped drawing may come back
 
 [Complete merged PR archive](https://github.com/TryWorld2026/TryWorld2026/blob/main/CONTRIBUTIONS.md) · [Merged PRs on GitHub](https://github.com/search?q=author%3ATryWorld2026+is%3Apr+is%3Apublic+is%3Amerged&type=pullrequests)
 
