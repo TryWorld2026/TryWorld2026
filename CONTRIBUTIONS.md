@@ -1,6 +1,6 @@
 # 已合并 PR 贡献记录 · Merged pull requests
 
-作者：[TryWorld2026](https://github.com/TryWorld2026) · 43 个已合并 PR · 41 个外部项目 PR · 2 个自身项目 PR
+作者：[TryWorld2026](https://github.com/TryWorld2026) · 44 个已合并 PR · 42 个外部项目 PR · 2 个自身项目 PR
 
 自动核对月份：**2026-10**（北京时间）。有变动时更新记录，至少每月刷新一次核对月份。
 
@@ -14,6 +14,7 @@
 
 | 合并日期（北京时间） | 项目 / PR | 标题 / Title |
 | --- | --- | --- |
+| 2026-10-06 | [magpie-community/plugins #27](https://github.com/magpie-community/plugins/pull/27) | word-guard 0.1.1: a Gemini reply is masked too, streamed or whole |
 | 2026-10-05 | [yetone/magpie #924](https://github.com/yetone/magpie/pull/924) | fix\(agent\): a provider&#x27;s Compact at reaches Codex&#x27;s on-disk catalog |
 | 2026-10-05 | [magpie-community/plugins #26](https://github.com/magpie-community/plugins/pull/26) | model-map 0.1.1: a Gemini request&#x27;s model is mapped, and its reply names it back |
 | 2026-10-05 | [yetone/magpie #873](https://github.com/yetone/magpie/pull/873) | fix\(gateway\): an account Antigravity turned away doesn&#x27;t rest |
