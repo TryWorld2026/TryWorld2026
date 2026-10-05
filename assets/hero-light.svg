@@ -1,31 +1,31 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="280" viewBox="0 0 1200 280" role="img" aria-labelledby="title desc">
-  <title id="title">TryWorld — Explore by Trying.</title>
-  <desc id="desc">An original geometric TW monogram on a cool blue coordinate grid, connecting trying, building, and sharing.</desc>
-  <rect width="1200" height="280" rx="12" fill="#f2f6fb"/>
-  <rect x="1" y="1" width="1198" height="278" rx="11" fill="none" stroke="#d9e3ed"/>
-  <path d="M50 43h23v6H50zm8 6h7v18h-7zM77 43h6l5 17 5-13h5l5 13 5-17h6l-8 24h-6l-5-13-5 13h-6z" fill="#087f82"/>
-  <text x="133" y="59" fill="#536979" font-family="'Cascadia Code',Consolas,monospace" font-size="13" letter-spacing="2.5">IDEAS INTO TOOLS</text>
-  <text x="46" y="151" fill="#102738" font-family="'Trebuchet MS',Verdana,sans-serif" font-size="84" font-weight="700" letter-spacing="-4">TryWorld<tspan fill="#087f82">.</tspan></text>
-  <text x="51" y="194" fill="#446173" font-family="'Cascadia Code',Consolas,monospace" font-size="21">Explore by Trying.</text>
-  <path d="M51 220h480" stroke="#d9e3ed"/>
-  <g font-family="'Cascadia Code',Consolas,monospace" font-size="12" letter-spacing="1.5" fill="#536979">
-    <text x="51" y="249">AI TOOLS</text>
-    <circle cx="161" cy="245" r="2" fill="#087f82"/>
-    <text x="181" y="249">DESKTOP</text>
-    <circle cx="279" cy="245" r="2" fill="#087f82"/>
-    <text x="299" y="249">OPEN SOURCE</text>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="320" viewBox="0 0 1200 320" role="img" aria-labelledby="title desc">
+  <title id="title">试界 TryWorld — 尝试，即世界。</title>
+  <desc id="desc">TryWorld brand banner: the connected tw signature, the line “尝试，即世界”, an orbital mark, and Explore by Trying.</desc>
+  <rect width="1200" height="320" rx="14" fill="#F2EEE6"/>
+  <rect x="1" y="1" width="1198" height="318" rx="13" fill="none" stroke="#D3D5CB"/>
+  <g transform="translate(48 34) scale(0.24)" fill="none" stroke="#24564E" stroke-width="16" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M49 17C43 34 39 56 42 73C44 88 54 98 67 99M17 40C35 34 52 28 66 35C83 44 77 82 92 86C101 89 110 64 117 63C123 64 126 85 139 86C154 88 169 55 174 43"/>
   </g>
-  <g fill="none" stroke="#d9e3ed" stroke-width="1">
-    <path d="M764 40h388M764 80h388M764 120h388M764 160h388M764 200h388M764 240h388"/>
-    <path d="M792 28v224M832 28v224M872 28v224M912 28v224M952 28v224M992 28v224M1032 28v224M1072 28v224M1112 28v224"/>
+  <text x="112" y="58" font-family="'PingFang SC','Microsoft YaHei','Hiragino Sans GB','Source Han Sans SC','Noto Sans SC',sans-serif" font-size="23" font-weight="700" fill="#1B2523" letter-spacing="0.4">TryWorld<tspan dx="9" font-size="14" font-weight="500" fill="#24564E">试界</tspan></text>
+  <path d="M266 34v28" stroke="#D3D5CB"/>
+  <text x="288" y="54" font-family="'PingFang SC','Microsoft YaHei','Hiragino Sans GB','Source Han Sans SC','Noto Sans SC',sans-serif" font-size="13.5" fill="#616A63">用尝试，打开更多可能。</text>
+  <path d="M48 88h1104" stroke="#D3D5CB"/>
+  <path d="M672 116v172" stroke="#E1E2DA"/>
+  <text x="48" y="142" font-family="'PingFang SC','Microsoft YaHei','Hiragino Sans GB','Source Han Sans SC','Noto Sans SC',sans-serif" font-size="12.5" fill="#24564E" letter-spacing="2.6">来自宁夏的创作者</text>
+  <text x="46" y="216" font-family="'PingFang SC','Microsoft YaHei','Hiragino Sans GB','Source Han Sans SC','Noto Sans SC',sans-serif" font-size="64" font-weight="800" letter-spacing="1"><tspan fill="#1B2523">尝试</tspan><tspan fill="#F2693C">，</tspan><tspan fill="#24564E">即世界</tspan><tspan fill="#24564E">。</tspan></text>
+  <text x="48" y="256" font-family="'PingFang SC','Microsoft YaHei','Hiragino Sans GB','Source Han Sans SC','Noto Sans SC',sans-serif" font-size="17" fill="#616A63">用 AI、代码和好奇心，把想法做成可以使用的东西。</text>
+  <text x="48" y="292" font-family="Georgia,'Times New Roman','Songti SC',serif" font-size="21" font-style="italic" fill="#24564E">Explore by Trying.</text>
+  <text x="712" y="142" font-family="'PingFang SC','Microsoft YaHei','Hiragino Sans GB','Source Han Sans SC','Noto Sans SC',sans-serif" font-size="11.5" fill="#616A63" letter-spacing="2.4">TRY / MAKE / SHARE</text>
+  <text x="1152" y="142" text-anchor="end" font-family="'PingFang SC','Microsoft YaHei','Hiragino Sans GB','Source Han Sans SC','Noto Sans SC',sans-serif" font-size="12.5" fill="#616A63">试着打开，新的边界。</text>
+  <g fill="none">
+    <ellipse cx="930" cy="218" rx="170" ry="92" transform="rotate(-16 930 218)" stroke="#24564E" stroke-width="1.4" opacity="0.4"/>
+    <ellipse cx="930" cy="218" rx="170" ry="92" transform="rotate(13 930 218)" stroke="#24564E" stroke-width="1.4" opacity="0.22"/>
+    <ellipse cx="930" cy="218" rx="170" ry="92" stroke="#24564E" stroke-width="1.4" opacity="0.14"/>
+    <ellipse cx="930" cy="218" rx="170" ry="92" transform="rotate(-16 930 218)" stroke="#1B2523" stroke-width="1.6" opacity="0.55" stroke-dasharray="540 400"/>
   </g>
-  <rect x="824" y="87" width="280" height="114" rx="4" fill="#f2f6fb" stroke="#aec5d5" stroke-width="1.2"/>
-  <path d="M842 98h87v18h-34v70h-19v-70h-34z" fill="#102738"/>
-  <path d="M949 98h20l16 59 16-46h17l16 46 16-59h20l-24 88h-22l-14-43-15 43h-22z" fill="#102738"/>
-  <path d="M794 216h30v-30M1104 114h28v-50h-46" fill="none" stroke="#087f82" stroke-width="2"/>
-  <circle cx="794" cy="216" r="5" fill="#087f82"/>
-  <circle cx="1086" cy="64" r="5" fill="#087f82"/>
-  <rect x="1099" y="196" width="10" height="10" fill="#2468c9"/>
-  <path d="M778 47h12M784 41v12M1122 222h12M1128 216v12" stroke="#8ca5b8"/>
-  <text x="827" y="231" fill="#536979" font-family="'Cascadia Code',Consolas,monospace" font-size="12" letter-spacing="2">TRY / BUILD / SHARE</text>
+  <circle cx="1093" cy="171" r="5" fill="#F2693C"/>
+  <circle cx="790" cy="290" r="4" fill="#24564E" opacity="0.85"/>
+  <text x="930" y="236" text-anchor="middle" font-family="Georgia,'Times New Roman','Songti SC',serif" font-size="58" font-style="italic" fill="#1B2523">make<tspan fill="#F2693C">.</tspan></text>
+  <text x="930" y="272" text-anchor="middle" font-family="'PingFang SC','Microsoft YaHei','Hiragino Sans GB','Source Han Sans SC','Noto Sans SC',sans-serif" font-size="14" font-weight="600" fill="#1B2523" letter-spacing="1.2">试界 TryWorld</text>
+  <text x="930" y="294" text-anchor="middle" font-family="'PingFang SC','Microsoft YaHei','Hiragino Sans GB','Source Han Sans SC','Noto Sans SC',sans-serif" font-size="12" fill="#616A63">从一个问题，做到一个产品。</text>
 </svg>

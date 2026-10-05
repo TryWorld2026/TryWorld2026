@@ -1,15 +1,15 @@
 <p>
-  <img src="https://raw.githubusercontent.com/TryWorld2026/TryWorld2026/main/assets/hero-light.svg#gh-light-mode-only" alt="TryWorld — Explore by Trying. AI tools, desktop utilities, and open source." width="100%">
-  <img src="https://raw.githubusercontent.com/TryWorld2026/TryWorld2026/main/assets/hero-dark.svg#gh-dark-mode-only" alt="TryWorld — Explore by Trying. AI tools, desktop utilities, and open source." width="100%">
+  <img src="https://raw.githubusercontent.com/TryWorld2026/TryWorld2026/main/assets/hero-light.svg#gh-light-mode-only" alt="TryWorld — Explore by Trying." width="100%">
+  <img src="https://raw.githubusercontent.com/TryWorld2026/TryWorld2026/main/assets/hero-dark.svg#gh-dark-mode-only" alt="TryWorld — Explore by Trying." width="100%">
 </p>
 
 # TryWorld · 试界
 
 **Explore by Trying. 尝试，即世界。**
 
-I turn ideas into useful tools: AI workflows, desktop utilities, and web products for everyday problems. I maintain my own projects and contribute fixes, tests, and client integrations to open source.
+A maker from Ningxia, China. I use AI, code, and curiosity to turn ideas into things people can actually use. I maintain my own projects and contribute fixes, tests, and client integrations to open source.
 
-[Open source](#open-source) · [What I work with](#what-i-work-with) · [Repositories](https://github.com/TryWorld2026?tab=repositories) · [简体中文](https://github.com/TryWorld2026/TryWorld2026/blob/main/README.md)
+[Website](https://tryworld.com.cn) · [Open source](#open-source) · [What I work with](#what-i-work-with) · [Repositories](https://github.com/TryWorld2026?tab=repositories) · [简体中文](https://github.com/TryWorld2026/TryWorld2026/blob/main/README.md)
 
 ## Open source
 
@@ -50,4 +50,6 @@ My contributions accepted and merged into external open-source projects.
 
 For questions, feedback, or improvements, open an issue in the relevant project.
 
-<sub>Start with curiosity. Improve through practice. Share what you build.</sub>
+---
+
+<sub>Explore by Trying. · [tryworld.com.cn](https://tryworld.com.cn)</sub>

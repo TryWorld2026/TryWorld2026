@@ -1,15 +1,15 @@
 <p>
-  <img src="https://raw.githubusercontent.com/TryWorld2026/TryWorld2026/main/assets/hero-light.svg#gh-light-mode-only" alt="TryWorld — Explore by Trying. AI tools, desktop utilities, and open source." width="100%">
-  <img src="https://raw.githubusercontent.com/TryWorld2026/TryWorld2026/main/assets/hero-dark.svg#gh-dark-mode-only" alt="TryWorld — Explore by Trying. AI tools, desktop utilities, and open source." width="100%">
+  <img src="https://raw.githubusercontent.com/TryWorld2026/TryWorld2026/main/assets/hero-light.svg#gh-light-mode-only" alt="试界 TryWorld — 尝试，即世界。Explore by Trying." width="100%">
+  <img src="https://raw.githubusercontent.com/TryWorld2026/TryWorld2026/main/assets/hero-dark.svg#gh-dark-mode-only" alt="试界 TryWorld — 尝试，即世界。Explore by Trying." width="100%">
 </p>
 
-# TryWorld · 试界
+# 试界 TryWorld
 
 **尝试，即世界。Explore by Trying.**
 
-我把想法做成能用的工具：AI 工作流、桌面应用，以及解决日常问题的 Web 产品。维护自己的项目，也为开源项目贡献修复、测试和客户端集成。
+来自宁夏的创作者。用 AI、代码和好奇心，把想法做成可以使用的东西。维护自己的项目，也为开源项目贡献修复、测试和客户端集成。
 
-[开源贡献](#开源贡献) · [技术方向](#技术方向) · [全部仓库](https://github.com/TryWorld2026?tab=repositories) · [English](https://github.com/TryWorld2026/TryWorld2026/blob/main/README.en.md)
+[个人网站](https://tryworld.com.cn) · [开源贡献](#开源贡献) · [技术方向](#技术方向) · [全部仓库](https://github.com/TryWorld2026?tab=repositories) · [English](https://github.com/TryWorld2026/TryWorld2026/blob/main/README.en.md)
 
 ## 开源贡献
 
@@ -50,4 +50,6 @@
 
 项目问题、使用反馈和改进想法，欢迎在对应仓库提 Issue。
 
-<sub>从好奇开始，在实践中完善，分享给更多人。</sub>
+---
+
+<sub>尝试，即世界。Explore by Trying. · [tryworld.com.cn](https://tryworld.com.cn)</sub>
