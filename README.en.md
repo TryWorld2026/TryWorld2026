@@ -12,26 +12,27 @@ A maker from Ningxia, China. I use AI, code, and curiosity to turn ideas into th
 ## Open source
 
 <!-- CONTRIBUTIONS:START -->
-**39 merged PRs · 3 external projects**
+**41 merged PRs · 4 external projects**
 
 My contributions accepted and merged into external open-source projects.
 
 | Project | Merged PRs |
 | --- | --- |
-| [yetone/magpie](https://github.com/yetone/magpie) | 29 |
+| [yetone/magpie](https://github.com/yetone/magpie) | 30 |
+| [magpie-community/plugins](https://github.com/magpie-community/plugins) | 1 |
 | [ShDH-CMYK/heikesong-zuopin](https://github.com/ShDH-CMYK/heikesong-zuopin) | 1 |
 | [open-city-ai/haidian](https://github.com/open-city-ai/haidian) | 9 |
 
 **Recently merged**
 
+- [yetone/magpie #924](https://github.com/yetone/magpie/pull/924) — fix\(agent\): a provider&#x27;s Compact at reaches Codex&#x27;s on-disk catalog
+- [magpie-community/plugins #26](https://github.com/magpie-community/plugins/pull/26) — model-map 0.1.1: a Gemini request&#x27;s model is mapped, and its reply names it back
 - [yetone/magpie #873](https://github.com/yetone/magpie/pull/873) — fix\(gateway\): an account Antigravity turned away doesn&#x27;t rest
 - [yetone/magpie #849](https://github.com/yetone/magpie/pull/849) — fix\(gui\): skip scheme registration inside Flatpak
 - [yetone/magpie #814](https://github.com/yetone/magpie/pull/814) — fix\(gateway\): a compaction that broke off keeps the conversation&#x27;s stick
 - [yetone/magpie #744](https://github.com/yetone/magpie/pull/744) — davsync: scope provider and library credentials during partial sync
 - [yetone/magpie #772](https://github.com/yetone/magpie/pull/772) — fix\(gui\): a reply that broke off is told as failed everywhere
 - [yetone/magpie #774](https://github.com/yetone/magpie/pull/774) — fix\(agent\): installs without Node ask for it the way that works
-- [yetone/magpie #776](https://github.com/yetone/magpie/pull/776) — fix\(gateway\): forget a broken-off reply&#x27;s stick by the account alone
-- [yetone/magpie #760](https://github.com/yetone/magpie/pull/760) — fix\(provider\): mark a window one model&#x27;s own as capped, as routing holds it
 
 [Complete merged PR archive](https://github.com/TryWorld2026/TryWorld2026/blob/main/CONTRIBUTIONS.md) · [Merged PRs on GitHub](https://github.com/search?q=author%3ATryWorld2026+is%3Apr+is%3Apublic+is%3Amerged&type=pullrequests)
 
