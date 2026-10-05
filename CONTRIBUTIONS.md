@@ -1,6 +1,6 @@
 # 已合并 PR 贡献记录 · Merged pull requests
 
-作者：[TryWorld2026](https://github.com/TryWorld2026) · 38 个已合并 PR · 36 个外部项目 PR · 2 个自身项目 PR
+作者：[TryWorld2026](https://github.com/TryWorld2026) · 40 个已合并 PR · 38 个外部项目 PR · 2 个自身项目 PR
 
 自动核对月份：**2026-10**（北京时间）。有变动时更新记录，至少每月刷新一次核对月份。
 
@@ -14,6 +14,8 @@
 
 | 合并日期（北京时间） | 项目 / PR | 标题 / Title |
 | --- | --- | --- |
+| 2026-10-05 | [yetone/magpie #849](https://github.com/yetone/magpie/pull/849) | fix\(gui\): skip scheme registration inside Flatpak |
+| 2026-10-05 | [yetone/magpie #814](https://github.com/yetone/magpie/pull/814) | fix\(gateway\): a compaction that broke off keeps the conversation&#x27;s stick |
 | 2026-10-04 | [yetone/magpie #744](https://github.com/yetone/magpie/pull/744) | davsync: scope provider and library credentials during partial sync |
 | 2026-10-04 | [yetone/magpie #772](https://github.com/yetone/magpie/pull/772) | fix\(gui\): a reply that broke off is told as failed everywhere |
 | 2026-10-04 | [yetone/magpie #774](https://github.com/yetone/magpie/pull/774) | fix\(agent\): installs without Node ask for it the way that works |
