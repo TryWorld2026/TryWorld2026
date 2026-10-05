@@ -5,8 +5,6 @@
 
 # TryWorld · 试界
 
-**Explore by Trying. 尝试，即世界。**
-
 A maker from Ningxia, China. I use AI, code, and curiosity to turn ideas into things people can actually use. I maintain my own projects and contribute fixes, tests, and client integrations to open source.
 
 [Website](https://tryworld.com.cn) · [Open source](#open-source) · [What I work with](#what-i-work-with) · [Repositories](https://github.com/TryWorld2026?tab=repositories) · [简体中文](https://github.com/TryWorld2026/TryWorld2026/blob/main/README.md)

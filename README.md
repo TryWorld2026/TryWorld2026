@@ -5,8 +5,6 @@
 
 # 试界 TryWorld
 
-**尝试，即世界。Explore by Trying.**
-
 来自宁夏的创作者。用 AI、代码和好奇心，把想法做成可以使用的东西。维护自己的项目，也为开源项目贡献修复、测试和客户端集成。
 
 [个人网站](https://tryworld.com.cn) · [开源贡献](#开源贡献) · [技术方向](#技术方向) · [全部仓库](https://github.com/TryWorld2026?tab=repositories) · [English](https://github.com/TryWorld2026/TryWorld2026/blob/main/README.en.md)
