@@ -8,7 +8,7 @@
 
 [GitHub 已合并 PR](https://github.com/search?q=author%3ATryWorld2026+is%3Apr+is%3Apublic+is%3Amerged&type=pullrequests)
 
-[主页](https://github.com/TryWorld2026) · [English](https://github.com/TryWorld2026/TryWorld2026/blob/main/README.en.md)
+[主页](https://github.com/TryWorld2026) · [English](https://github.com/TryWorld2026/TryWorld2026/blob/main/README.md)
 
 ## 外部项目 · External projects
 

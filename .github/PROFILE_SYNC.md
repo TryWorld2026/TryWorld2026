@@ -12,8 +12,14 @@ python <skill>/scripts/brand.py social --out assets
 That command is the canonical source; the copies in this repository must stay
 byte-identical to its output. Regenerate instead of editing the SVG directly, and
 keep the `#gh-light-mode-only` / `#gh-dark-mode-only` fragments in `README.md` and
-`README.en.md`. `tests/test_brand_assets.py` guards the mark geometry, palette,
+`README.zh-CN.md`. `tests/test_brand_assets.py` guards the mark geometry, palette,
 viewport and README wiring.
+
+`README.md` is the English profile shown on the GitHub profile page;
+`README.zh-CN.md` carries the Simplified Chinese version. The generator renders
+English into the former and Chinese into the latter, so `build_files` maps
+`README.md` to `'en'` and `README.zh-CN.md` to `'zh'`. Swapping that mapping
+would write the Chinese table into the English profile.
 
 The profile checks public pull requests daily, scheduled for 08:17 Asia/Shanghai
 (00:17 UTC). GitHub may delay scheduled runs. Changes to the generator, tests, or
@@ -36,7 +42,7 @@ README markers stop the refresh and preserve the previous documents.
 The workflow uses its built-in `GITHUB_TOKEN`. Only the refresh job on the original
 repository's `main` branch has `contents: write`; pull-request runs only test the
 generator. No personal access token or paid service is required. The bot stages
-only `README.md`, `README.en.md`, and `CONTRIBUTIONS.md`.
+only `README.md`, `README.zh-CN.md`, and `CONTRIBUTIONS.md`.
 
 When records do not change, there is no daily commit. The archive records its
 verification month, producing one real verification update per month during quiet

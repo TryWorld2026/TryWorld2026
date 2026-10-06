@@ -12,7 +12,7 @@ on:
       - 'tests/**'
       - '.github/workflows/update-contributions.yml'
       - 'README.md'
-      - 'README.en.md'
+      - 'README.zh-CN.md'
   pull_request:
     paths:
       - 'scripts/**'
@@ -63,7 +63,7 @@ jobs:
           GIT_COMMITTER_NAME: github-actions[bot]
           GIT_COMMITTER_EMAIL: 41898282+github-actions[bot]@users.noreply.github.com
         run: |
-          git add -- README.md README.en.md CONTRIBUTIONS.md
+          git add -- README.md README.zh-CN.md CONTRIBUTIONS.md
           if git diff --cached --quiet; then
             echo 'Contribution records unchanged.'
             exit 0

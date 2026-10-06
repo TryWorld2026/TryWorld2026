@@ -167,7 +167,7 @@ def render_archive(login, pull_requests, verified_month):
              f'作者：[{login}](https://github.com/{login}) · {len(external) + len(own)} 个已合并 PR · {len(external)} 个外部项目 PR · {len(own)} 个自身项目 PR', '',
              f'自动核对月份：**{verified_month}**（北京时间）。有变动时更新记录，至少每月刷新一次核对月份。', '',
              '本列表收录已被合并的公开 PR。', '', merged_search_link(login, 'zh'), '',
-             f'[主页](https://github.com/{login}) · [English](https://github.com/{login}/{login}/blob/main/README.en.md)', '']
+             f'[主页](https://github.com/{login}) · [English](https://github.com/{login}/{login}/blob/main/README.md)', '']
     for title, items in [('外部项目 · External projects', external), ('自身项目 · Own projects', own)]:
         lines += [f'## {title}', '', '| 合并日期（北京时间） | 项目 / PR | 标题 / Title |', '| --- | --- | --- |']
         for item in items:
@@ -182,7 +182,7 @@ def render_archive(login, pull_requests, verified_month):
 
 def build_files(root, login, pull_requests, verified_month):
     files = {}
-    for name, language in [('README.md', 'zh'), ('README.en.md', 'en')]:
+    for name, language in [('README.md', 'en'), ('README.zh-CN.md', 'zh')]:
         path = root / name
         text = path.read_bytes().decode('utf-8')
         if text.count(START) != 1 or text.count(END) != 1 or text.index(START) >= text.index(END):

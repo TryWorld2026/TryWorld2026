@@ -40,7 +40,7 @@ class BrandHeroTests(unittest.TestCase):
         self.assertNotIn('#087f82', light + dark, 'the retired teal must not return')
 
     def test_readmes_pair_each_hero_with_a_mode_fragment(self):
-        for readme in ('README.md', 'README.en.md'):
+        for readme in ('README.md', 'README.zh-CN.md'):
             with self.subTest(readme=readme):
                 text = (ROOT / readme).read_text(encoding='utf-8')
                 for name, fragment in (('hero-light.svg', '#gh-light-mode-only'), ('hero-dark.svg', '#gh-dark-mode-only')):
@@ -49,7 +49,7 @@ class BrandHeroTests(unittest.TestCase):
                 self.assertEqual(text.count('CONTRIBUTIONS:END'), 1)
 
     def test_readmes_link_the_live_site_once(self):
-        for readme in ('README.md', 'README.en.md'):
+        for readme in ('README.md', 'README.zh-CN.md'):
             with self.subTest(readme=readme):
                 text = (ROOT / readme).read_text(encoding='utf-8')
                 self.assertEqual(text.count('https://tryworld.com.cn'), 2, 'hero link plus footer only')

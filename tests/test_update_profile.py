@@ -142,37 +142,37 @@ class ContributionTests(unittest.TestCase):
     def test_pr_appears_in_both_languages_and_archive_after_it_merges(self):
         with tempfile.TemporaryDirectory() as directory:
             root = Path(directory)
-            for name in ('README.md', 'README.en.md'):
+            for name in ('README.md', 'README.zh-CN.md'):
                 (root / name).write_bytes(TEMPLATE.encode('utf-8'))
             pending = pull_request(1, state='OPEN', draft=True)
             updater.sync_profile(root, LOGIN, MONTH, paged_request(response([pending])))
-            for name in ('README.md', 'README.en.md', 'CONTRIBUTIONS.md'):
+            for name in ('README.md', 'README.zh-CN.md', 'CONTRIBUTIONS.md'):
                 self.assertNotIn(pending['url'], (root / name).read_text(encoding='utf-8'))
             merged = pull_request(1)
             changed = updater.sync_profile(root, LOGIN, MONTH, paged_request(response([merged])))
             self.assertEqual(len(changed), 3)
-            for name in ('README.md', 'README.en.md', 'CONTRIBUTIONS.md'):
+            for name in ('README.md', 'README.zh-CN.md', 'CONTRIBUTIONS.md'):
                 self.assertIn(merged['url'], (root / name).read_text(encoding='utf-8'))
 
     def test_bilingual_generation_preserves_surrounding_text(self):
         with tempfile.TemporaryDirectory() as directory:
             root = Path(directory)
-            for name in ('README.md', 'README.en.md'):
+            for name in ('README.md', 'README.zh-CN.md'):
                 (root / name).write_bytes(TEMPLATE.encode('utf-8'))
             files = updater.build_files(root, LOGIN, [pull_request(1)], MONTH)
             self.assertIn(root / 'README.md', files)
-            self.assertIn(root / 'README.en.md', files)
+            self.assertIn(root / 'README.zh-CN.md', files)
             self.assertIn(root / 'CONTRIBUTIONS.md', files)
-            for name in ('README.md', 'README.en.md'):
+            for name in ('README.md', 'README.zh-CN.md'):
                 self.assertTrue(files[root / name].startswith('Keep this introduction.\n<!-- CONTRIBUTIONS:START -->'))
                 self.assertTrue(files[root / name].endswith('<!-- CONTRIBUTIONS:END -->\nKeep this footer.\n'))
-            self.assertIn('已合并', files[root / 'README.md'])
-            self.assertIn('Merged', files[root / 'README.en.md'])
+            self.assertIn('Merged', files[root / 'README.md'])
+            self.assertIn('已合并', files[root / 'README.zh-CN.md'])
 
-    def test_missing_english_marker_does_not_write_chinese_or_archive(self):
+    def test_missing_primary_marker_does_not_write_either_language_or_archive(self):
         with tempfile.TemporaryDirectory() as directory:
             root = Path(directory)
-            originals = {'README.md': TEMPLATE, 'README.en.md': 'No managed block.\n', 'CONTRIBUTIONS.md': 'Keep archive.\n'}
+            originals = {'README.md': TEMPLATE, 'README.zh-CN.md': 'No managed block.\n', 'CONTRIBUTIONS.md': 'Keep archive.\n'}
             for name, text in originals.items():
                 (root / name).write_bytes(text.encode('utf-8'))
             with self.assertRaises(RuntimeError):
@@ -182,10 +182,10 @@ class ContributionTests(unittest.TestCase):
     def test_repeated_sync_is_idempotent_and_monthly_checkpoint_only_changes_archive(self):
         with tempfile.TemporaryDirectory() as directory:
             root = Path(directory)
-            for name in ('README.md', 'README.en.md'):
+            for name in ('README.md', 'README.zh-CN.md'):
                 (root / name).write_bytes(TEMPLATE.encode('utf-8'))
             first = updater.sync_profile(root, LOGIN, MONTH, paged_request(response([pull_request(1)])))
-            self.assertEqual(set(first), {root / 'README.md', root / 'README.en.md', root / 'CONTRIBUTIONS.md'})
+            self.assertEqual(set(first), {root / 'README.md', root / 'README.zh-CN.md', root / 'CONTRIBUTIONS.md'})
             repeated = updater.sync_profile(root, LOGIN, MONTH, paged_request(response([pull_request(1)])))
             self.assertEqual(repeated, [])
             monthly = updater.sync_profile(root, LOGIN, '2026-11', paged_request(response([pull_request(1)])))
@@ -194,7 +194,7 @@ class ContributionTests(unittest.TestCase):
     def test_failed_file_replacement_restores_previous_documents(self):
         with tempfile.TemporaryDirectory() as directory:
             root = Path(directory)
-            originals = {root / 'README.md': b'old Chinese\n', root / 'README.en.md': b'old English\n', root / 'CONTRIBUTIONS.md': b'old archive\n'}
+            originals = {root / 'README.md': b'old English\n', root / 'README.zh-CN.md': b'old Chinese\n', root / 'CONTRIBUTIONS.md': b'old archive\n'}
             for path, content in originals.items():
                 path.write_bytes(content)
             files = {path: 'new content\n' for path in originals}
@@ -203,7 +203,7 @@ class ContributionTests(unittest.TestCase):
 
             def replace(source, target):
                 nonlocal failed
-                if Path(target) == root / 'README.en.md' and not failed:
+                if Path(target) == root / 'README.zh-CN.md' and not failed:
                     failed = True
                     raise OSError('Disk write failed')
                 return real_replace(source, target)
