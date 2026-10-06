@@ -11,15 +11,25 @@ A maker from Ningxia, China. I use AI, code, and curiosity to turn ideas into th
 
 ## Featured work
 
-| Project | What it is | Stack |
-| --- | --- | --- |
-| [**Lingyu 灵屿**](https://github.com/TryWorld2026/Lingyu)<br>★ A free open-source Windows desktop dynamic island | A desktop capsule plus a standalone workspace for music, weather, focus, and AI. Free, no ads, no membership, no paywall. [Website](https://lingyu.tryworld.com.cn/) | C#/.NET 10/WPF · Electron · React |
-| [**Paper Algorithm 纸上算法**](https://github.com/TryWorld2026/paper-algorithm)<br>★ One sentence to a finished voiceover video | Three Agent Skills chaining topic selection, scripting, rendering, and a publish plan | Python · Agent Skills · HyperFrames |
-| [**Beginner's guide to Chinese AI tools**](https://github.com/TryWorld2026/guochan-ai-tutorial) | 13 chapters, 300k+ characters, no VPN or coding required — chat, image, video, coding, and monetization | Documentation · Prompt library |
-| [**Sanlian Judge 三连鉴定委员会**](https://github.com/TryWorld2026/sanlian-judge) | Enter a Bilibili UID, get a 9-module AI-generated cyber-personality certificate and share card | JavaScript · Cloudflare Pages · Flask · LLM |
-| [**Red Paper Kite 红纸鸢**](https://github.com/TryWorld2026/red-paper-kite) | A Chinese-horror text adventure — zero dependencies, no build step, single run, three endings | JavaScript · No dependencies |
-| [**Basketball scoreboard**](https://github.com/TryWorld2026/basketball-scoreboard) | The official scoreboard for school class tournaments: phone as remote, any screen as the big display, and a data card generated at the final whistle | Cloudflare Workers · D1 · Vanilla JS |
-| [**Badminton scoreboard**](https://github.com/TryWorld2026/badmintonrapidscoreboard) | Courtside mode: oversized scores readable 2 m away on a phone propped courtside, long-press to undo, auto screen-awake | Cloudflare Workers · D1 · Vanilla JS |
+Two projects I keep pushing on. Everything else in my repositories is something I built to learn, and those stay out of this list.
+
+### Lingyu 灵屿
+
+**A free open-source Windows desktop dynamic island and workspace** — [Website](https://lingyu.tryworld.com.cn/) · [Repository](https://github.com/TryWorld2026/Lingyu)
+
+Music, real weather, focus timers, and AI in a desktop capsule plus a resizable workspace. No ads, no membership, no paywall; AI runs against a local model or your own API key. Sixteen releases so far, including a native C# / .NET 10 / WPF rewrite of the whole client — the legacy build remains on Electron. The upstream eIsland account, payment, and membership dependencies were removed and each gated capability restored one by one.
+
+C# / .NET 10 / WPF · Electron · React · TypeScript · GPL-3.0
+
+### Paper Algorithm 纸上算法
+
+**An AI-agent skill set that turns one sentence into a finished voiceover video** — [Repository](https://github.com/TryWorld2026/paper-algorithm)
+
+Three Agent Skills chain topic selection, scriptwriting, polish, rendering, covers, titles, and a four-platform publish plan into one pipeline. Two hard gates require explicit confirmation before anything renders, and a machine check rejects rhetorical patterns before a script may even be shown. 33 stars and 5 forks — the only project here that other people have actually adopted.
+
+Python · Agent Skills · HyperFrames · CC BY-SA 4.0
+
+The other repositories are things I built to learn — a B站 personality-certificate generator, a Chinese-horror text adventure, two sports scoreboards, and a beginner's guide to Chinese AI tools. They're real and they're tested, but they are practice, not portfolio. Browse them on the [repositories tab](https://github.com/TryWorld2026?tab=repositories).
 
 ## Open source
 
