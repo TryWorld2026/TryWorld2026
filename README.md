@@ -18,7 +18,8 @@
 | [**国产AI零基础入门教程**](https://github.com/TryWorld2026/guochan-ai-tutorial) | 13 章 30 万字，无需翻墙、无需编程基础，覆盖对话/生图/视频/编程/变现 | 文档 · 提示词库 |
 | [**三连鉴定委员会**](https://github.com/TryWorld2026/sanlian-judge) | 输入 B 站 UID，AI 生成 9 模块赛博人格鉴定证书与分享卡 | JavaScript · Cloudflare Pages · Flask · LLM |
 | [**红纸鸢 · 归名**](https://github.com/TryWorld2026/red-paper-kite) | 中式恐怖文字冒险游戏，零依赖、无构建，单线一周目可通关 | JavaScript · 无依赖 |
-| [**篮球 / 羽毛球计分板**](https://github.com/TryWorld2026/basketball-scoreboard) | 手机当遥控器，任何屏幕当记分牌 | Cloudflare Workers · D1 · 原生 JS |
+| [**篮球计分板**](https://github.com/TryWorld2026/basketball-scoreboard) | 校园班赛官方记分牌：手机当遥控器，任何屏幕当大屏，打完自动出一张数据卡 | Cloudflare Workers · D1 · 原生 JS |
+| [**羽毛球计分板**](https://github.com/TryWorld2026/badmintonrapidscoreboard) | 场边模式：手机架在场边，2 米外可读的超大字报比分，长按撤回、自动防息屏 | Cloudflare Workers · D1 · 原生 JS |
 
 ## 开源贡献
 

@@ -18,7 +18,8 @@ A maker from Ningxia, China. I use AI, code, and curiosity to turn ideas into th
 | [**Beginner's guide to Chinese AI tools**](https://github.com/TryWorld2026/guochan-ai-tutorial) | 13 chapters, 300k+ characters, no VPN or coding required — chat, image, video, coding, and monetization | Documentation · Prompt library |
 | [**Sanlian Judge 三连鉴定委员会**](https://github.com/TryWorld2026/sanlian-judge) | Enter a Bilibili UID, get a 9-module AI-generated cyber-personality certificate and share card | JavaScript · Cloudflare Pages · Flask · LLM |
 | [**Red Paper Kite 红纸鸢**](https://github.com/TryWorld2026/red-paper-kite) | A Chinese-horror text adventure — zero dependencies, no build step, single run, three endings | JavaScript · No dependencies |
-| [**Basketball / badminton scoreboards**](https://github.com/TryWorld2026/basketball-scoreboard) | Phone as remote, any screen as the scoreboard | Cloudflare Workers · D1 · Vanilla JS |
+| [**Basketball scoreboard**](https://github.com/TryWorld2026/basketball-scoreboard) | The official scoreboard for school class tournaments: phone as remote, any screen as the big display, and a data card generated at the final whistle | Cloudflare Workers · D1 · Vanilla JS |
+| [**Badminton scoreboard**](https://github.com/TryWorld2026/badmintonrapidscoreboard) | Courtside mode: oversized scores readable 2 m away on a phone propped courtside, long-press to undo, auto screen-awake | Cloudflare Workers · D1 · Vanilla JS |
 
 ## Open source
 
