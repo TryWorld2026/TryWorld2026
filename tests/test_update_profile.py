@@ -169,6 +169,22 @@ class ContributionTests(unittest.TestCase):
             self.assertIn('Merged', files[root / 'README.md'])
             self.assertIn('已合并', files[root / 'README.zh-CN.md'])
 
+    def test_english_profile_never_receives_chinese_and_vice_versa(self):
+        """GitHub renders README.md on the profile page, so English must win there.
+
+        A swapped mapping writes the Chinese contribution table into the
+        English profile. This guards the mapping directly, independently of
+        whichever wording each renderer happens to use.
+        """
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory)
+            for name in ('README.md', 'README.zh-CN.md'):
+                (root / name).write_bytes(TEMPLATE.encode('utf-8'))
+            files = updater.build_files(root, LOGIN, [pull_request(1)], MONTH)
+            english, chinese = files[root / 'README.md'], files[root / 'README.zh-CN.md']
+            self.assertNotRegex(english, r'[\u4e00-\u9fff]')
+            self.assertNotRegex(chinese, r'\bmerged PRs\b', )
+
     def test_missing_primary_marker_does_not_write_either_language_or_archive(self):
         with tempfile.TemporaryDirectory() as directory:
             root = Path(directory)
