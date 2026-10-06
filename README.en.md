@@ -49,6 +49,10 @@ My contributions accepted and merged into external open-source projects.
 
 For questions, feedback, or improvements, open an issue in the relevant project.
 
+## License
+
+This repository (the profile page and contribution records) is under the [MIT License](LICENSE). Each standalone project carries its own license — see the corresponding repository.
+
 ---
 
 <sub>Explore by Trying. · [tryworld.com.cn](https://tryworld.com.cn)</sub>

@@ -49,6 +49,10 @@
 
 项目问题、使用反馈和改进想法，欢迎在对应仓库提 Issue。
 
+## 许可
+
+本仓库（个人主页与贡献记录）采用 [MIT License](LICENSE)。各独立项目适用各自的许可证，见对应仓库。
+
 ---
 
 <sub>尝试，即世界。Explore by Trying. · [tryworld.com.cn](https://tryworld.com.cn)</sub>
