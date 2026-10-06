@@ -1,6 +1,6 @@
 # 已合并 PR 贡献记录 · Merged pull requests
 
-作者：[TryWorld2026](https://github.com/TryWorld2026) · 46 个已合并 PR · 44 个外部项目 PR · 2 个自身项目 PR
+作者：[TryWorld2026](https://github.com/TryWorld2026) · 47 个已合并 PR · 45 个外部项目 PR · 2 个自身项目 PR
 
 自动核对月份：**2026-10**（北京时间）。有变动时更新记录，至少每月刷新一次核对月份。
 
@@ -14,6 +14,7 @@
 
 | 合并日期（北京时间） | 项目 / PR | 标题 / Title |
 | --- | --- | --- |
+| 2026-10-06 | [yetone/magpie #427](https://github.com/yetone/magpie/pull/427) | agent: add Reasonix Studio with separate Executor and Plan models |
 | 2026-10-06 | [yetone/magpie #963](https://github.com/yetone/magpie/pull/963) | proc: IsMagpie knows the name an update leaves a running exe under |
 | 2026-10-06 | [yetone/magpie #956](https://github.com/yetone/magpie/pull/956) | gateway: a 429 from a key&#x27;s queue is in the usage ledger, as any other turn-away |
 | 2026-10-06 | [magpie-community/plugins #27](https://github.com/magpie-community/plugins/pull/27) | word-guard 0.1.1: a Gemini reply is masked too, streamed or whole |

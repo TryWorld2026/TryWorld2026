@@ -33,19 +33,20 @@ Python · Agent Skills · HyperFrames · CC BY-SA 4.0
 ## 开源贡献
 
 <!-- CONTRIBUTIONS:START -->
-**44 个已合并 PR · 4 个外部项目**
+**45 个已合并 PR · 4 个外部项目**
 
 我向外部开源项目贡献的成果，已被上游合并。
 
 | 项目 | 已合并 PR |
 | --- | --- |
-| [yetone/magpie](https://github.com/yetone/magpie) | 32 |
+| [yetone/magpie](https://github.com/yetone/magpie) | 33 |
 | [magpie-community/plugins](https://github.com/magpie-community/plugins) | 2 |
 | [ShDH-CMYK/heikesong-zuopin](https://github.com/ShDH-CMYK/heikesong-zuopin) | 1 |
 | [open-city-ai/haidian](https://github.com/open-city-ai/haidian) | 9 |
 
 **最近合并**
 
+- [yetone/magpie #427](https://github.com/yetone/magpie/pull/427) — agent: add Reasonix Studio with separate Executor and Plan models
 - [yetone/magpie #963](https://github.com/yetone/magpie/pull/963) — proc: IsMagpie knows the name an update leaves a running exe under
 - [yetone/magpie #956](https://github.com/yetone/magpie/pull/956) — gateway: a 429 from a key&#x27;s queue is in the usage ledger, as any other turn-away
 - [magpie-community/plugins #27](https://github.com/magpie-community/plugins/pull/27) — word-guard 0.1.1: a Gemini reply is masked too, streamed or whole
@@ -53,7 +54,6 @@ Python · Agent Skills · HyperFrames · CC BY-SA 4.0
 - [magpie-community/plugins #26](https://github.com/magpie-community/plugins/pull/26) — model-map 0.1.1: a Gemini request&#x27;s model is mapped, and its reply names it back
 - [yetone/magpie #873](https://github.com/yetone/magpie/pull/873) — fix\(gateway\): an account Antigravity turned away doesn&#x27;t rest
 - [yetone/magpie #849](https://github.com/yetone/magpie/pull/849) — fix\(gui\): skip scheme registration inside Flatpak
-- [yetone/magpie #814](https://github.com/yetone/magpie/pull/814) — fix\(gateway\): a compaction that broke off keeps the conversation&#x27;s stick
 
 [完整合并记录](https://github.com/TryWorld2026/TryWorld2026/blob/main/CONTRIBUTIONS.md) · [GitHub 已合并 PR](https://github.com/search?q=author%3ATryWorld2026+is%3Apr+is%3Apublic+is%3Amerged&type=pullrequests)
 
