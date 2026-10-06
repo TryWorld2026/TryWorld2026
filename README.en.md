@@ -7,7 +7,18 @@
 
 A maker from Ningxia, China. I use AI, code, and curiosity to turn ideas into things people can actually use. I maintain my own projects and contribute fixes, tests, and client integrations to open source.
 
-[Website](https://tryworld.com.cn) · [Open source](#open-source) · [What I work with](#what-i-work-with) · [Repositories](https://github.com/TryWorld2026?tab=repositories) · [简体中文](https://github.com/TryWorld2026/TryWorld2026/blob/main/README.md)
+[Website](https://tryworld.com.cn) · [Featured work](#featured-work) · [Open source](#open-source) · [What I work with](#what-i-work-with) · [Repositories](https://github.com/TryWorld2026?tab=repositories) · [简体中文](https://github.com/TryWorld2026/TryWorld2026/blob/main/README.md)
+
+## Featured work
+
+| Project | What it is | Stack |
+| --- | --- | --- |
+| [**Lingyu 灵屿**](https://github.com/TryWorld2026/Lingyu)<br>★ A free open-source Windows desktop dynamic island | A desktop capsule plus a standalone workspace for music, weather, focus, and AI. Free, no ads, no membership, no paywall. [Website](https://lingyu.tryworld.com.cn/) | C#/.NET 10/WPF · Electron · React |
+| [**Paper Algorithm 纸上算法**](https://github.com/TryWorld2026/paper-algorithm)<br>★ One sentence to a finished voiceover video | Three Agent Skills chaining topic selection, scripting, rendering, and a publish plan | Python · Agent Skills · HyperFrames |
+| [**Beginner's guide to Chinese AI tools**](https://github.com/TryWorld2026/guochan-ai-tutorial) | 13 chapters, 300k+ characters, no VPN or coding required — chat, image, video, coding, and monetization | Documentation · Prompt library |
+| [**Sanlian Judge 三连鉴定委员会**](https://github.com/TryWorld2026/sanlian-judge) | Enter a Bilibili UID, get a 9-module AI-generated cyber-personality certificate and share card | JavaScript · Cloudflare Pages · Flask · LLM |
+| [**Red Paper Kite 红纸鸢**](https://github.com/TryWorld2026/red-paper-kite) | A Chinese-horror text adventure — zero dependencies, no build step, single run, three endings | JavaScript · No dependencies |
+| [**Basketball / badminton scoreboards**](https://github.com/TryWorld2026/basketball-scoreboard) | Phone as remote, any screen as the scoreboard | Cloudflare Workers · D1 · Vanilla JS |
 
 ## Open source
 
@@ -44,10 +55,10 @@ My contributions accepted and merged into external open-source projects.
 | Work | Technologies used in my projects |
 | --- | --- |
 | AI-agent tools and client integrations | Go, API gateways, model routing, configuration management, regression tests |
-| Desktop utilities and interactions | TypeScript, React, Electron |
+| Desktop utilities and interactions | TypeScript, React, Electron, C# / WPF |
 | Practical web products and content workflows | JavaScript, Cloudflare Workers / D1, Python, Agent Skills |
 
-For questions, feedback, or improvements, open an issue in the relevant project.
+For questions, feedback, or improvements, open an issue in the relevant project. To follow progress on a specific project, watch the repository or open an issue there.
 
 ## License
 

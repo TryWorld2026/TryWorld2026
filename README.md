@@ -7,7 +7,18 @@
 
 来自宁夏的创作者。用 AI、代码和好奇心，把想法做成可以使用的东西。维护自己的项目，也为开源项目贡献修复、测试和客户端集成。
 
-[个人网站](https://tryworld.com.cn) · [开源贡献](#开源贡献) · [技术方向](#技术方向) · [全部仓库](https://github.com/TryWorld2026?tab=repositories) · [English](https://github.com/TryWorld2026/TryWorld2026/blob/main/README.en.md)
+[个人网站](https://tryworld.com.cn) · [精选项目](#精选项目) · [开源贡献](#开源贡献) · [技术方向](#技术方向) · [全部仓库](https://github.com/TryWorld2026?tab=repositories) · [English](https://github.com/TryWorld2026/TryWorld2026/blob/main/README.en.md)
+
+## 精选项目
+
+| 项目 | 是什么 | 技术 |
+| --- | --- | --- |
+| [**灵屿 Lingyu**](https://github.com/TryWorld2026/Lingyu)<br>★ 免费开源的 Windows 桌面灵动岛 | 桌面胶囊与独立工作台，音乐、天气、专注与 AI。全免费、无广告、无会员、无付费墙。[官网](https://lingyu.tryworld.com.cn/) | C#/.NET 10/WPF · Electron · React |
+| [**纸上算法 Paper Algorithm**](https://github.com/TryWorld2026/paper-algorithm)<br>★ 一句话到成片的口播生产线 | 三个 Agent Skills 串起选题、写稿、成片与发布计划 | Python · Agent Skills · HyperFrames |
+| [**国产AI零基础入门教程**](https://github.com/TryWorld2026/guochan-ai-tutorial) | 13 章 30 万字，无需翻墙、无需编程基础，覆盖对话/生图/视频/编程/变现 | 文档 · 提示词库 |
+| [**三连鉴定委员会**](https://github.com/TryWorld2026/sanlian-judge) | 输入 B 站 UID，AI 生成 9 模块赛博人格鉴定证书与分享卡 | JavaScript · Cloudflare Pages · Flask · LLM |
+| [**红纸鸢 · 归名**](https://github.com/TryWorld2026/red-paper-kite) | 中式恐怖文字冒险游戏，零依赖、无构建，单线一周目可通关 | JavaScript · 无依赖 |
+| [**篮球 / 羽毛球计分板**](https://github.com/TryWorld2026/basketball-scoreboard) | 手机当遥控器，任何屏幕当记分牌 | Cloudflare Workers · D1 · 原生 JS |
 
 ## 开源贡献
 
@@ -44,10 +55,10 @@
 | 正在做的事 | 项目中使用的技术 |
 | --- | --- |
 | AI Agent 工具与客户端集成 | Go、API 网关、模型路由、配置管理与回归测试 |
-| 桌面工具与交互 | TypeScript、React、Electron |
+| 桌面工具与交互 | TypeScript、React、Electron、C# / WPF |
 | 实用 Web 产品与内容工作流 | JavaScript、Cloudflare Workers / D1、Python、Agent Skills |
 
-项目问题、使用反馈和改进想法，欢迎在对应仓库提 Issue。
+项目问题、使用反馈和改进想法，欢迎在对应仓库提 Issue。想看每个项目的进展，[订阅 Releases](https://github.com/TryWorld2026?tab=repositories) 或直接到对应仓库提 Issue。
 
 ## 许可
 
