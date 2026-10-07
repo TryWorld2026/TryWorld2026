@@ -1,6 +1,6 @@
 # 已合并 PR 贡献记录 · Merged pull requests
 
-作者：[TryWorld2026](https://github.com/TryWorld2026) · 47 个已合并 PR · 45 个外部项目 PR · 2 个自身项目 PR
+作者：[TryWorld2026](https://github.com/TryWorld2026) · 49 个已合并 PR · 46 个外部项目 PR · 3 个自身项目 PR
 
 自动核对月份：**2026-10**（北京时间）。有变动时更新记录，至少每月刷新一次核对月份。
 
@@ -14,6 +14,7 @@
 
 | 合并日期（北京时间） | 项目 / PR | 标题 / Title |
 | --- | --- | --- |
+| 2026-10-06 | [yetone/magpie #1015](https://github.com/yetone/magpie/pull/1015) | fix\(gateway\): a refusal that arrives once the reply began rests nobody |
 | 2026-10-06 | [yetone/magpie #427](https://github.com/yetone/magpie/pull/427) | agent: add Reasonix Studio with separate Executor and Plan models |
 | 2026-10-06 | [yetone/magpie #963](https://github.com/yetone/magpie/pull/963) | proc: IsMagpie knows the name an update leaves a running exe under |
 | 2026-10-06 | [yetone/magpie #956](https://github.com/yetone/magpie/pull/956) | gateway: a 429 from a key&#x27;s queue is in the usage ledger, as any other turn-away |
@@ -64,5 +65,6 @@
 
 | 合并日期（北京时间） | 项目 / PR | 标题 / Title |
 | --- | --- | --- |
+| 2026-10-06 | [TryWorld2026/Lingyu #1](https://github.com/TryWorld2026/Lingyu/pull/1) | fix\(native/plugins/ci\): prompt version gate, consistent paired state, PR-time plugin checks |
 | 2026-09-22 | [TryWorld2026/badmintonrapidscoreboard #2](https://github.com/TryWorld2026/badmintonrapidscoreboard/pull/2) | 重构：信息架构 + VOLT TRUCK 视觉系统 + 分文件拆分 + 无障碍（修 10 个缺陷） |
 | 2026-09-22 | [TryWorld2026/paper-algorithm #1](https://github.com/TryWorld2026/paper-algorithm/pull/1) | fix: 修复 pipeline runner 参数转发，整合文档与 .ps1 弃用声明 |

@@ -34,19 +34,20 @@ The other repositories are things I built to learn — a B站 personality-certif
 ## Open source
 
 <!-- CONTRIBUTIONS:START -->
-**45 merged PRs · 4 external projects**
+**46 merged PRs · 4 external projects**
 
 My contributions accepted and merged into external open-source projects.
 
 | Project | Merged PRs |
 | --- | --- |
-| [yetone/magpie](https://github.com/yetone/magpie) | 33 |
+| [yetone/magpie](https://github.com/yetone/magpie) | 34 |
 | [magpie-community/plugins](https://github.com/magpie-community/plugins) | 2 |
 | [ShDH-CMYK/heikesong-zuopin](https://github.com/ShDH-CMYK/heikesong-zuopin) | 1 |
 | [open-city-ai/haidian](https://github.com/open-city-ai/haidian) | 9 |
 
 **Recently merged**
 
+- [yetone/magpie #1015](https://github.com/yetone/magpie/pull/1015) — fix\(gateway\): a refusal that arrives once the reply began rests nobody
 - [yetone/magpie #427](https://github.com/yetone/magpie/pull/427) — agent: add Reasonix Studio with separate Executor and Plan models
 - [yetone/magpie #963](https://github.com/yetone/magpie/pull/963) — proc: IsMagpie knows the name an update leaves a running exe under
 - [yetone/magpie #956](https://github.com/yetone/magpie/pull/956) — gateway: a 429 from a key&#x27;s queue is in the usage ledger, as any other turn-away
@@ -54,7 +55,6 @@ My contributions accepted and merged into external open-source projects.
 - [yetone/magpie #924](https://github.com/yetone/magpie/pull/924) — fix\(agent\): a provider&#x27;s Compact at reaches Codex&#x27;s on-disk catalog
 - [magpie-community/plugins #26](https://github.com/magpie-community/plugins/pull/26) — model-map 0.1.1: a Gemini request&#x27;s model is mapped, and its reply names it back
 - [yetone/magpie #873](https://github.com/yetone/magpie/pull/873) — fix\(gateway\): an account Antigravity turned away doesn&#x27;t rest
-- [yetone/magpie #849](https://github.com/yetone/magpie/pull/849) — fix\(gui\): skip scheme registration inside Flatpak
 
 [Complete merged PR archive](https://github.com/TryWorld2026/TryWorld2026/blob/main/CONTRIBUTIONS.md) · [Merged PRs on GitHub](https://github.com/search?q=author%3ATryWorld2026+is%3Apr+is%3Apublic+is%3Amerged&type=pullrequests)
 
