@@ -33,19 +33,20 @@ Python · Agent Skills · HyperFrames · CC BY-SA 4.0
 ## 开源贡献
 
 <!-- CONTRIBUTIONS:START -->
-**46 个已合并 PR · 4 个外部项目**
+**47 个已合并 PR · 4 个外部项目**
 
 我向外部开源项目贡献的成果，已被上游合并。
 
 | 项目 | 已合并 PR |
 | --- | --- |
-| [yetone/magpie](https://github.com/yetone/magpie) | 34 |
+| [yetone/magpie](https://github.com/yetone/magpie) | 35 |
 | [magpie-community/plugins](https://github.com/magpie-community/plugins) | 2 |
 | [ShDH-CMYK/heikesong-zuopin](https://github.com/ShDH-CMYK/heikesong-zuopin) | 1 |
 | [open-city-ai/haidian](https://github.com/open-city-ai/haidian) | 9 |
 
 **最近合并**
 
+- [yetone/magpie #1180](https://github.com/yetone/magpie/pull/1180) — agent tests: a fake omp a Windows PATH lookup answers to, and the distro probe is skipped where a Windows shell calls the temp folder a drive
 - [yetone/magpie #1015](https://github.com/yetone/magpie/pull/1015) — fix\(gateway\): a refusal that arrives once the reply began rests nobody
 - [yetone/magpie #427](https://github.com/yetone/magpie/pull/427) — agent: add Reasonix Studio with separate Executor and Plan models
 - [yetone/magpie #963](https://github.com/yetone/magpie/pull/963) — proc: IsMagpie knows the name an update leaves a running exe under
@@ -53,7 +54,6 @@ Python · Agent Skills · HyperFrames · CC BY-SA 4.0
 - [magpie-community/plugins #27](https://github.com/magpie-community/plugins/pull/27) — word-guard 0.1.1: a Gemini reply is masked too, streamed or whole
 - [yetone/magpie #924](https://github.com/yetone/magpie/pull/924) — fix\(agent\): a provider&#x27;s Compact at reaches Codex&#x27;s on-disk catalog
 - [magpie-community/plugins #26](https://github.com/magpie-community/plugins/pull/26) — model-map 0.1.1: a Gemini request&#x27;s model is mapped, and its reply names it back
-- [yetone/magpie #873](https://github.com/yetone/magpie/pull/873) — fix\(gateway\): an account Antigravity turned away doesn&#x27;t rest
 
 [完整合并记录](https://github.com/TryWorld2026/TryWorld2026/blob/main/CONTRIBUTIONS.md) · [GitHub 已合并 PR](https://github.com/search?q=author%3ATryWorld2026+is%3Apr+is%3Apublic+is%3Amerged&type=pullrequests)
 
