@@ -1,6 +1,6 @@
 # 已合并 PR 贡献记录 · Merged pull requests
 
-作者：[TryWorld2026](https://github.com/TryWorld2026) · 52 个已合并 PR · 47 个外部项目 PR · 5 个自身项目 PR
+作者：[TryWorld2026](https://github.com/TryWorld2026) · 56 个已合并 PR · 51 个外部项目 PR · 5 个自身项目 PR
 
 自动核对月份：**2026-10**（北京时间）。有变动时更新记录，至少每月刷新一次核对月份。
 
@@ -14,6 +14,10 @@
 
 | 合并日期（北京时间） | 项目 / PR | 标题 / Title |
 | --- | --- | --- |
+| 2026-10-13 | [yetone/magpie #1079](https://github.com/yetone/magpie/pull/1079) | fix\(autostart\): a launch agent left half-written reads as Open at log… |
+| 2026-10-13 | [yetone/magpie #1081](https://github.com/yetone/magpie/pull/1081) | fix\(autostart\): turning Open at login off says so when the Run key refuses it |
+| 2026-10-13 | [yetone/magpie #1076](https://github.com/yetone/magpie/pull/1076) | plugin: a plugin pinned to a version, or turned off, keeps both throu… |
+| 2026-10-13 | [yetone/magpie #1075](https://github.com/yetone/magpie/pull/1075) | gateway: a Chat turn&#x27;s thinking is read in every spelling the client … |
 | 2026-10-08 | [yetone/magpie #1180](https://github.com/yetone/magpie/pull/1180) | agent tests: a fake omp a Windows PATH lookup answers to, and the distro probe is skipped where a Windows shell calls the temp folder a drive |
 | 2026-10-06 | [yetone/magpie #1015](https://github.com/yetone/magpie/pull/1015) | fix\(gateway\): a refusal that arrives once the reply began rests nobody |
 | 2026-10-06 | [yetone/magpie #427](https://github.com/yetone/magpie/pull/427) | agent: add Reasonix Studio with separate Executor and Plan models |

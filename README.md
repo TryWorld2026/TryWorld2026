@@ -34,27 +34,27 @@ The other repositories are things I built to learn — a B站 personality-certif
 ## Open source
 
 <!-- CONTRIBUTIONS:START -->
-**47 merged PRs · 4 external projects**
+**51 merged PRs · 4 external projects**
 
 My contributions accepted and merged into external open-source projects.
 
 | Project | Merged PRs |
 | --- | --- |
-| [yetone/magpie](https://github.com/yetone/magpie) | 35 |
+| [yetone/magpie](https://github.com/yetone/magpie) | 39 |
 | [magpie-community/plugins](https://github.com/magpie-community/plugins) | 2 |
 | [ShDH-CMYK/heikesong-zuopin](https://github.com/ShDH-CMYK/heikesong-zuopin) | 1 |
 | [open-city-ai/haidian](https://github.com/open-city-ai/haidian) | 9 |
 
 **Recently merged**
 
+- [yetone/magpie #1079](https://github.com/yetone/magpie/pull/1079) — fix\(autostart\): a launch agent left half-written reads as Open at log…
+- [yetone/magpie #1081](https://github.com/yetone/magpie/pull/1081) — fix\(autostart\): turning Open at login off says so when the Run key refuses it
+- [yetone/magpie #1076](https://github.com/yetone/magpie/pull/1076) — plugin: a plugin pinned to a version, or turned off, keeps both throu…
+- [yetone/magpie #1075](https://github.com/yetone/magpie/pull/1075) — gateway: a Chat turn&#x27;s thinking is read in every spelling the client …
 - [yetone/magpie #1180](https://github.com/yetone/magpie/pull/1180) — agent tests: a fake omp a Windows PATH lookup answers to, and the distro probe is skipped where a Windows shell calls the temp folder a drive
 - [yetone/magpie #1015](https://github.com/yetone/magpie/pull/1015) — fix\(gateway\): a refusal that arrives once the reply began rests nobody
 - [yetone/magpie #427](https://github.com/yetone/magpie/pull/427) — agent: add Reasonix Studio with separate Executor and Plan models
 - [yetone/magpie #963](https://github.com/yetone/magpie/pull/963) — proc: IsMagpie knows the name an update leaves a running exe under
-- [yetone/magpie #956](https://github.com/yetone/magpie/pull/956) — gateway: a 429 from a key&#x27;s queue is in the usage ledger, as any other turn-away
-- [magpie-community/plugins #27](https://github.com/magpie-community/plugins/pull/27) — word-guard 0.1.1: a Gemini reply is masked too, streamed or whole
-- [yetone/magpie #924](https://github.com/yetone/magpie/pull/924) — fix\(agent\): a provider&#x27;s Compact at reaches Codex&#x27;s on-disk catalog
-- [magpie-community/plugins #26](https://github.com/magpie-community/plugins/pull/26) — model-map 0.1.1: a Gemini request&#x27;s model is mapped, and its reply names it back
 
 [Complete merged PR archive](https://github.com/TryWorld2026/TryWorld2026/blob/main/CONTRIBUTIONS.md) · [Merged PRs on GitHub](https://github.com/search?q=author%3ATryWorld2026+is%3Apr+is%3Apublic+is%3Amerged&type=pullrequests)
 
