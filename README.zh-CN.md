@@ -11,15 +11,7 @@
 
 ## 精选项目
 
-两个我持续在做的项目。其余仓库是我为了学习而做的东西，不列在这里。
-
-### 灵屿 Lingyu
-
-**免费开源的 Windows 桌面灵动岛与工作台** —— [官网](https://lingyu.tryworld.com.cn/) · [仓库](https://github.com/TryWorld2026/Lingyu)
-
-音乐、真实天气、专注计时与 AI，装在一个桌面胶囊和一个可调整大小的工作台里。无广告、无会员、无付费墙；AI 可连接本地模型或你自己的 API Key。目前 16 个 release，其中包含把整个客户端用 C# / .NET 10 / WPF 重写的原生版——旧客户端仍保留 Electron 实现。上游 eIsland 的账号、支付与会员依赖已移除，逐项恢复被封锁的能力。
-
-C# / .NET 10 / WPF · Electron · React · TypeScript · GPL-3.0
+一个我在持续做的项目，和一个已经做完并归档的项目。其余仓库是我为了学习而做的东西，不列在这里。
 
 ### 纸上算法 Paper Algorithm
 
@@ -28,6 +20,14 @@ C# / .NET 10 / WPF · Electron · React · TypeScript · GPL-3.0
 三个 Agent Skills 把选题、写稿、打磨、出片、封面、标题和四平台发布计划串成一条流水线。两道硬闸门要求显式确认后才能渲染，另有一道机器检查在脚本展示之前就拦掉套话。33 star、5 fork——这里唯一被其他人真正用起来的项目。
 
 Python · Agent Skills · HyperFrames · CC BY-SA 4.0
+
+### 灵屿 Lingyu —— 已归档
+
+**免费开源的 Windows 桌面灵动岛与工作台** —— [官网](https://lingyu.tryworld.com.cn/) · [仓库](https://github.com/TryWorld2026/Lingyu)
+
+音乐、真实天气、专注计时与 AI，装在一个桌面胶囊和一个可调整大小的工作台里。无广告、无会员、无付费墙；AI 可连接本地模型或你自己的 API Key。16 个 release，其中包含把整个客户端用 C# / .NET 10 / WPF 重写的原生版，旧客户端保留 Electron 实现。2026 年 10 月停止开发：仓库已归档为只读，发行包保留供参考。与其半吊子维护，不如把它如实收尾。
+
+C# / .NET 10 / WPF · Electron · React · TypeScript · GPL-3.0
 
 其余仓库是我为了学习而做的东西：一个 B 站人格鉴定生成器、一个中式恐怖文字冒险、两个体育计分板、一份国产 AI 零基础教程。它们都是真的、都过了测试，但那是练习，不是作品集。去[仓库列表](https://github.com/TryWorld2026?tab=repositories)看。
 ## 开源贡献

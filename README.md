@@ -11,15 +11,7 @@ A maker from Ningxia, China. I use AI, code, and curiosity to turn ideas into th
 
 ## Featured work
 
-Two projects I keep pushing on. Everything else in my repositories is something I built to learn, and those stay out of this list.
-
-### Lingyu 灵屿
-
-**A free open-source Windows desktop dynamic island and workspace** — [Website](https://lingyu.tryworld.com.cn/) · [Repository](https://github.com/TryWorld2026/Lingyu)
-
-Music, real weather, focus timers, and AI in a desktop capsule plus a resizable workspace. No ads, no membership, no paywall; AI runs against a local model or your own API key. Sixteen releases so far, including a native C# / .NET 10 / WPF rewrite of the whole client — the legacy build remains on Electron. The upstream eIsland account, payment, and membership dependencies were removed and each gated capability restored one by one.
-
-C# / .NET 10 / WPF · Electron · React · TypeScript · GPL-3.0
+One project I keep pushing on, and one I finished and archived. Everything else in my repositories is something I built to learn, and those stay out of this list.
 
 ### Paper Algorithm 纸上算法
 
@@ -28,6 +20,14 @@ C# / .NET 10 / WPF · Electron · React · TypeScript · GPL-3.0
 Three Agent Skills chain topic selection, scriptwriting, polish, rendering, covers, titles, and a four-platform publish plan into one pipeline. Two hard gates require explicit confirmation before anything renders, and a machine check rejects rhetorical patterns before a script may even be shown. 33 stars and 5 forks — the only project here that other people have actually adopted.
 
 Python · Agent Skills · HyperFrames · CC BY-SA 4.0
+
+### Lingyu 灵屿 — archived
+
+**A free open-source Windows desktop dynamic island and workspace** — [Website](https://lingyu.tryworld.com.cn/) · [Repository](https://github.com/TryWorld2026/Lingyu)
+
+Music, real weather, focus timers, and AI in a desktop capsule plus a resizable workspace. No ads, no membership, no paywall; AI runs against a local model or your own API key. Sixteen releases, including a native C# / .NET 10 / WPF rewrite of the whole client while the legacy build stayed on Electron. Development stopped in October 2026: the repository is archived and read-only, and the releases remain available for reference. I would rather leave it honest than half-maintained.
+
+C# / .NET 10 / WPF · Electron · React · TypeScript · GPL-3.0
 
 The other repositories are things I built to learn — a B站 personality-certificate generator, a Chinese-horror text adventure, two sports scoreboards, and a beginner's guide to Chinese AI tools. They're real and they're tested, but they are practice, not portfolio. Browse them on the [repositories tab](https://github.com/TryWorld2026?tab=repositories).
 
