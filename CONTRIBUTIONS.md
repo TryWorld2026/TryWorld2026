@@ -1,6 +1,6 @@
 # 已合并 PR 贡献记录 · Merged pull requests
 
-作者：[TryWorld2026](https://github.com/TryWorld2026) · 56 个已合并 PR · 51 个外部项目 PR · 5 个自身项目 PR
+作者：[TryWorld2026](https://github.com/TryWorld2026) · 57 个已合并 PR · 51 个外部项目 PR · 6 个自身项目 PR
 
 自动核对月份：**2026-10**（北京时间）。有变动时更新记录，至少每月刷新一次核对月份。
 
@@ -70,6 +70,7 @@
 
 | 合并日期（北京时间） | 项目 / PR | 标题 / Title |
 | --- | --- | --- |
+| 2026-10-24 | [TryWorld2026/paper-algorithm #2](https://github.com/TryWorld2026/paper-algorithm/pull/2) | fix: 门禁豁免技术记法 / step\_01 如实改名 ingest / README 门禁与 runner 说法纠正 / TAB 损坏路径修复 |
 | 2026-10-08 | [TryWorld2026/Lingyu #3](https://github.com/TryWorld2026/Lingyu/pull/3) | refactor\(store\): migrate url-favorites to the atomic list path |
 | 2026-10-07 | [TryWorld2026/Lingyu #2](https://github.com/TryWorld2026/Lingyu/pull/2) | chore: dependency security gate, remove unused lyric-resolver, disclose unsigned updates |
 | 2026-10-06 | [TryWorld2026/Lingyu #1](https://github.com/TryWorld2026/Lingyu/pull/1) | fix\(native/plugins/ci\): prompt version gate, consistent paired state, PR-time plugin checks |
