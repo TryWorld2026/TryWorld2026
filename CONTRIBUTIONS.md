@@ -1,6 +1,6 @@
 # 已合并 PR 贡献记录 · Merged pull requests
 
-作者：[TryWorld2026](https://github.com/TryWorld2026) · 54 个已合并 PR · 51 个外部项目 PR · 3 个自身项目 PR
+作者：[TryWorld2026](https://github.com/TryWorld2026) · 56 个已合并 PR · 51 个外部项目 PR · 5 个自身项目 PR
 
 自动核对月份：**2026-11**（北京时间）。有变动时更新记录，至少每月刷新一次核对月份。
 
@@ -70,6 +70,8 @@
 
 | 合并日期（北京时间） | 项目 / PR | 标题 / Title |
 | --- | --- | --- |
+| 2026-11-04 | [TryWorld2026/setpiece #4](https://github.com/TryWorld2026/setpiece/pull/4) | fix: skip update feed for CLI-only releases |
+| 2026-11-04 | [TryWorld2026/setpiece #3](https://github.com/TryWorld2026/setpiece/pull/3) | chore: finish legacy identity cleanup |
 | 2026-10-24 | [TryWorld2026/paper-algorithm #2](https://github.com/TryWorld2026/paper-algorithm/pull/2) | fix: 门禁豁免技术记法 / step\_01 如实改名 ingest / README 门禁与 runner 说法纠正 / TAB 损坏路径修复 |
 | 2026-09-22 | [TryWorld2026/badmintonrapidscoreboard #2](https://github.com/TryWorld2026/badmintonrapidscoreboard/pull/2) | 重构：信息架构 + VOLT TRUCK 视觉系统 + 分文件拆分 + 无障碍（修 10 个缺陷） |
 | 2026-09-22 | [TryWorld2026/paper-algorithm #1](https://github.com/TryWorld2026/paper-algorithm/pull/1) | fix: 修复 pipeline runner 参数转发，整合文档与 .ps1 弃用声明 |
